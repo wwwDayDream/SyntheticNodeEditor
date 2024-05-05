@@ -5,34 +5,47 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NodeEditor"
         xmlns:nodify="https://miroiu.github.io/nodify"
+        xmlns:models="clr-namespace:NodeEditor.Models"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     
     <Grid>
-        <nodify:NodifyEditor ItemsSource="{Binding Nodes}">
+        <nodify:NodifyEditor ItemsSource="{Binding Nodes}"
+                             Connections="{Binding Connections}">
             <nodify:NodifyEditor.DataContext>
-                <local:EditorViewModel />
+                <models:EditorViewModel />
             </nodify:NodifyEditor.DataContext>
 
             <nodify:NodifyEditor.ItemTemplate>
-                <DataTemplate DataType="{x:Type local:NodeViewModel}">
+                <DataTemplate DataType="{x:Type models:NodeViewModel}">
                     <nodify:Node Header="{Binding Title}"
                                  Input="{Binding Input}"
                                  Output="{Binding Output}">
                         <nodify:Node.InputConnectorTemplate>
-                            <DataTemplate DataType="{x:Type local:ConnectorViewModel}">
-                                <nodify:NodeInput Header="{Binding Title}" />
+                            <DataTemplate DataType="{x:Type models:ConnectorViewModel}">
+                                <nodify:NodeInput Header="{Binding Title}"
+                                                  IsConnected="True"
+                                                  Anchor="{Binding Anchor, Mode=OneWayToSource}" />
                             </DataTemplate>
                         </nodify:Node.InputConnectorTemplate>
-  
+
                         <nodify:Node.OutputConnectorTemplate>
-                            <DataTemplate DataType="{x:Type local:ConnectorViewModel}">
-                                <nodify:NodeOutput Header="{Binding Title}" />
+                            <DataTemplate DataType="{x:Type models:ConnectorViewModel}">
+                                <nodify:NodeOutput Header="{Binding Title}"
+                                                   IsConnected="True"
+                                                   Anchor="{Binding Anchor, Mode=OneWayToSource}"  />
                             </DataTemplate>
                         </nodify:Node.OutputConnectorTemplate>
                     </nodify:Node>
                 </DataTemplate>
             </nodify:NodifyEditor.ItemTemplate>
+            
+            <nodify:NodifyEditor.ConnectionTemplate>
+                <DataTemplate DataType="{x:Type models:ConnectionViewModel}">
+                    <nodify:LineConnection Source="{Binding Source.Anchor}"
+                                           Target="{Binding Target.Anchor}" />
+                </DataTemplate>
+            </nodify:NodifyEditor.ConnectionTemplate>
         </nodify:NodifyEditor>
     </Grid>
 </Window>

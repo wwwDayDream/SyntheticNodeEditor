@@ -7,7 +7,7 @@
         xmlns:nodify="https://miroiu.github.io/nodify"
         xmlns:models="clr-namespace:NodeEditor.Models"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" >
     
     <Window.Resources>
         <GeometryDrawing x:Key="SmallGridGeometry"
@@ -35,11 +35,11 @@
     </Window.Resources>
     
     <Grid Background="{StaticResource NodifyEditor.BackgroundBrush}">
-        <nodify:NodifyEditor Background="{StaticResource SmallGridLinesDrawingBrush}" 
+        <nodify:NodifyEditor x:Name="NodeEditor" Background="{StaticResource SmallGridLinesDrawingBrush}" 
                              ItemsSource="{Binding Nodes}"
                              Connections="{Binding Connections}"
                              PendingConnection="{Binding PendingConnection}"
-                             DisconnectConnectorCommand="{Binding DisconnectConnectorCommand}">
+                             DisconnectConnectorCommand="{Binding DisconnectConnectorCommand}" >
             <nodify:NodifyEditor.DataContext>
                 <models:EditorViewModel />
             </nodify:NodifyEditor.DataContext>
@@ -86,5 +86,16 @@
         
         <Grid Background="{StaticResource LargeGridLinesDrawingBrush}"
               Panel.ZIndex="-2" />
+        
+        <DockPanel>
+            <Menu DockPanel.Dock="Top" Background="#AA333333">
+                <MenuItem Header="_File" Foreground="White">
+                    <MenuItem Header="_Open" Click="FileOpened" Foreground="Black"/>
+                    <MenuItem Header="_Close" Foreground="Black"/>
+                    <MenuItem Header="_Save" Foreground="Black"/>
+                </MenuItem>
+            </Menu>
+            <StackPanel></StackPanel>
+        </DockPanel>
     </Grid>
 </Window>

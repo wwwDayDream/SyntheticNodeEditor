@@ -30,4 +30,9 @@ public class EditorViewModel
     {
         Connections.Add(new ConnectionViewModel(source, target));
     }
+
+    public void OnFileOpened(string dialogFileName)
+    {
+        Console.WriteLine(dialogFileName);
+    }
 }

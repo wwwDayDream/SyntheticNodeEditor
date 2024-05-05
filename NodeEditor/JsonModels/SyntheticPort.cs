@@ -1,4 +1,4 @@
-namespace NodeEditor.SSJsonModels;
+namespace NodeEditor.JsonModels;
 
 public class SyntheticPort {
     public string portName;

@@ -1,5 +1,8 @@
 using System.Collections.ObjectModel;
+using System.IO;
 using System.Windows.Input;
+using Newtonsoft.Json;
+using NodeEditor.JsonModels;
 
 namespace NodeEditor.Models;
 
@@ -34,5 +37,17 @@ public class EditorViewModel
     public void OnFileOpened(string dialogFileName)
     {
         Console.WriteLine(dialogFileName);
+        if (!File.Exists(dialogFileName)) return;
+
+        try
+        {
+            var creationObject = JsonConvert.DeserializeObject<SyntheticCreation>(File.ReadAllText(dialogFileName));
+            Console.WriteLine(creationObject);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e.ToString());
+        }
+        
     }
 }

@@ -1,6 +1,6 @@
 using System.Numerics;
 
-namespace NodeEditor.SSJsonModels;
+namespace NodeEditor.JsonModels;
 
 public class SyntheticValueNode {
     public int refID;

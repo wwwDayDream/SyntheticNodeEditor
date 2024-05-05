@@ -1,4 +1,4 @@
-namespace NodeEditor.SSJsonModels;
+namespace NodeEditor.JsonModels;
 
 public class SyntheticCreationData {
     public int refIDCounter;

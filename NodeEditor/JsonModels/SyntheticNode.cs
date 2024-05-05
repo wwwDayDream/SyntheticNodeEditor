@@ -1,9 +1,9 @@
 using System.Numerics;
 
-namespace NodeEditor.SSJsonModels;
+namespace NodeEditor.JsonModels;
 
 public class SyntheticNode {
-    public List<int> ID;
+    public int[] ID;
     public int refID;
     public int linkedPieceRefID;
     public Vector2 GraphPosition;

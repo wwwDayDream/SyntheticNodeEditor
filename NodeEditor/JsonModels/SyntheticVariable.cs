@@ -1,4 +1,4 @@
-namespace NodeEditor.SSJsonModels;
+namespace NodeEditor.JsonModels;
 
 public class SyntheticVariable {
     public string VariableName;

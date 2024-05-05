@@ -1,0 +1,763 @@
+{
+  "VersionTime": "",
+  "id": "5dfee9de-305b-4886-ad5d-bee897758293",
+  "CreationName": "ASimplePreview",
+  "CreatorId": "",
+  "CreationRootId": "c010f404-c65a-4a61-8f29-e74b30868f72",
+  "CreationData": {
+    "refIDCounter": 7,
+    "isFavorite": false,
+    "creationType": "PlayerCreation",
+    "creationName": "ASimplePreview",
+    "description": "No Description",
+    "NodeGraph": {
+      "graphName": "Untitled NodeGraph",
+      "isMethod": false,
+      "refID": 0,
+      "refIDCounter": 9,
+      "ExecutionEnterPosition": {
+        "x": -500.0,
+        "y": 0.0
+      },
+      "ExecutionExitPosition": {
+        "x": 500.0,
+        "y": 0.0
+      },
+      "InputPorts": [
+        {
+          "portName": "In",
+          "dataType": "Bool"
+        }
+      ],
+      "OutputPorts": [
+        {
+          "portName": "Out",
+          "dataType": "Bool"
+        }
+      ],
+      "ExecutionExits": [],
+      "nodes": [
+        {
+          "ID": [
+            -1
+          ],
+          "refID": 1,
+          "linkedPieceRefID": 2,
+          "GraphPosition": {
+            "x": -258.1512,
+            "y": -68.571434
+          }
+        },
+        {
+          "ID": [
+            -1
+          ],
+          "refID": 2,
+          "linkedPieceRefID": 3,
+          "GraphPosition": {
+            "x": -116.974762,
+            "y": -61.51261
+          }
+        },
+        {
+          "ID": [
+            -1
+          ],
+          "refID": 3,
+          "linkedPieceRefID": 5,
+          "GraphPosition": {
+            "x": 327.7311,
+            "y": 12.1008282
+          }
+        },
+        {
+          "ID": [
+            -1
+          ],
+          "refID": 4,
+          "linkedPieceRefID": 7,
+          "GraphPosition": {
+            "x": 228.907578,
+            "y": -1.09672546E-05
+          }
+        },
+        {
+          "ID": [
+            -2,
+            -6,
+            0
+          ],
+          "refID": 5,
+          "linkedPieceRefID": 6,
+          "GraphPosition": {
+            "x": 103.865562,
+            "y": 15.1260386
+          }
+        },
+        {
+          "ID": [
+            5
+          ],
+          "refID": 7,
+          "linkedPieceRefID": -1,
+          "GraphPosition": {
+            "x": 4.033635,
+            "y": -144.705887
+          }
+        },
+        {
+          "ID": [
+            27
+          ],
+          "refID": 9,
+          "linkedPieceRefID": -1,
+          "GraphPosition": {
+            "x": 5.04203844,
+            "y": -81.1764755
+          }
+        }
+      ],
+      "nodeConnections": [
+        {
+          "isExecutionPort": true,
+          "fromNodeRefID": 5,
+          "fromNodePortIndex": 0,
+          "toNodeRefID": 4,
+          "toNodePortIndex": 0
+        },
+        {
+          "isExecutionPort": true,
+          "fromNodeRefID": -1,
+          "fromNodePortIndex": 0,
+          "toNodeRefID": 5,
+          "toNodePortIndex": 0
+        },
+        {
+          "isExecutionPort": true,
+          "fromNodeRefID": -1,
+          "fromNodePortIndex": 0,
+          "toNodeRefID": 1,
+          "toNodePortIndex": 0
+        },
+        {
+          "isExecutionPort": true,
+          "fromNodeRefID": 4,
+          "fromNodePortIndex": 0,
+          "toNodeRefID": 3,
+          "toNodePortIndex": 0
+        },
+        {
+          "isExecutionPort": true,
+          "fromNodeRefID": 3,
+          "fromNodePortIndex": 0,
+          "toNodeRefID": -1,
+          "toNodePortIndex": 0
+        },
+        {
+          "isExecutionPort": true,
+          "fromNodeRefID": 1,
+          "fromNodePortIndex": 0,
+          "toNodeRefID": 2,
+          "toNodePortIndex": 0
+        },
+        {
+          "isExecutionPort": false,
+          "fromNodeRefID": 1,
+          "fromNodePortIndex": 1,
+          "toNodeRefID": 7,
+          "toNodePortIndex": 0
+        },
+        {
+          "isExecutionPort": false,
+          "fromNodeRefID": 6,
+          "fromNodePortIndex": 0,
+          "toNodeRefID": 7,
+          "toNodePortIndex": 1
+        },
+        {
+          "isExecutionPort": false,
+          "fromNodeRefID": 2,
+          "fromNodePortIndex": 0,
+          "toNodeRefID": 9,
+          "toNodePortIndex": 0
+        },
+        {
+          "isExecutionPort": false,
+          "fromNodeRefID": 9,
+          "fromNodePortIndex": 0,
+          "toNodeRefID": 5,
+          "toNodePortIndex": 0
+        },
+        {
+          "isExecutionPort": false,
+          "fromNodeRefID": 5,
+          "fromNodePortIndex": 0,
+          "toNodeRefID": 4,
+          "toNodePortIndex": 0
+        },
+        {
+          "isExecutionPort": false,
+          "fromNodeRefID": 9,
+          "fromNodePortIndex": 1,
+          "toNodeRefID": 4,
+          "toNodePortIndex": 1
+        },
+        {
+          "isExecutionPort": false,
+          "fromNodeRefID": 9,
+          "fromNodePortIndex": 2,
+          "toNodeRefID": 4,
+          "toNodePortIndex": 2
+        },
+        {
+          "isExecutionPort": false,
+          "fromNodeRefID": -1,
+          "fromNodePortIndex": 0,
+          "toNodeRefID": 5,
+          "toNodePortIndex": 0
+        },
+        {
+          "isExecutionPort": false,
+          "fromNodeRefID": 7,
+          "fromNodePortIndex": 0,
+          "toNodeRefID": -1,
+          "toNodePortIndex": 0
+        },
+        {
+          "isExecutionPort": false,
+          "fromNodeRefID": 7,
+          "fromNodePortIndex": 0,
+          "toNodeRefID": 3,
+          "toNodePortIndex": 0
+        }
+      ],
+      "nestedNodeGraphs": [],
+      "Variables": [],
+      "Values": [
+        {
+          "refID": 6,
+          "ValueName": "Value",
+          "GraphPosition": {
+            "x": -246.890717,
+            "y": -115.966385
+          },
+          "Type": "float",
+          "Value": "8888"
+        }
+      ]
+    },
+    "pieces": [
+      {
+        "pieceID": 0,
+        "refID": 1,
+        "pieceName": "Block",
+        "position": {
+          "x": 0.0,
+          "y": 2.0,
+          "z": 0.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 1.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "pieceProperties": [],
+        "pieceColor": {
+          "ColorValue": {
+            "R": 127,
+            "G": 127,
+            "B": 127,
+            "A": 255
+          },
+          "IsLinkedColor": false,
+          "ColorRefID": 0
+        }
+      },
+      {
+        "pieceID": 16,
+        "refID": 2,
+        "pieceName": "Position",
+        "position": {
+          "x": 0.0,
+          "y": 2.55,
+          "z": -7.450581E-09
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": -0.7071067,
+          "z": 0.7071068,
+          "w": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "pieceProperties": [],
+        "pieceColor": {
+          "ColorValue": {
+            "R": 127,
+            "G": 127,
+            "B": 127,
+            "A": 255
+          },
+          "IsLinkedColor": false,
+          "ColorRefID": 0
+        }
+      },
+      {
+        "pieceID": 17,
+        "refID": 3,
+        "pieceName": "Direction",
+        "position": {
+          "x": 0.25,
+          "y": 2.55,
+          "z": -7.450581E-09
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": -0.7071067,
+          "z": 0.7071068,
+          "w": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "pieceProperties": [],
+        "pieceColor": {
+          "ColorValue": {
+            "R": 127,
+            "G": 127,
+            "B": 127,
+            "A": 255
+          },
+          "IsLinkedColor": false,
+          "ColorRefID": 0
+        }
+      },
+      {
+        "pieceID": 83,
+        "refID": 5,
+        "pieceName": "Servo Joint",
+        "position": {
+          "x": -0.25,
+          "y": 2.55,
+          "z": -7.450581E-09
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": -0.7071067,
+          "z": 0.7071068,
+          "w": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "pieceProperties": [],
+        "pieceColor": {
+          "ColorValue": {
+            "R": 127,
+            "G": 127,
+            "B": 127,
+            "A": 255
+          },
+          "IsLinkedColor": false,
+          "ColorRefID": 0
+        }
+      },
+      {
+        "pieceID": 22,
+        "refID": 7,
+        "pieceName": "Grapple",
+        "position": {
+          "x": 0.0,
+          "y": 2.0,
+          "z": -1.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0,
+          "w": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "pieceProperties": [],
+        "pieceColor": {
+          "ColorValue": {
+            "R": 127,
+            "G": 127,
+            "B": 127,
+            "A": 255
+          },
+          "IsLinkedColor": false,
+          "ColorRefID": 0
+        }
+      }
+    ],
+    "pieceConnections": [
+      {
+        "fromRefID": [
+          1
+        ],
+        "fromAttachmentSurfaceID": 2,
+        "toRefID": [
+          2
+        ],
+        "toAttachmentSurfaceID": 0
+      },
+      {
+        "fromRefID": [
+          1
+        ],
+        "fromAttachmentSurfaceID": 2,
+        "toRefID": [
+          3
+        ],
+        "toAttachmentSurfaceID": 0
+      },
+      {
+        "fromRefID": [
+          1
+        ],
+        "fromAttachmentSurfaceID": 2,
+        "toRefID": [
+          5
+        ],
+        "toAttachmentSurfaceID": 0
+      },
+      {
+        "fromRefID": [
+          1
+        ],
+        "fromAttachmentSurfaceID": 2,
+        "toRefID": [
+          6,
+          1
+        ],
+        "toAttachmentSurfaceID": 0
+      },
+      {
+        "fromRefID": [
+          1
+        ],
+        "fromAttachmentSurfaceID": 1,
+        "toRefID": [
+          7
+        ],
+        "toAttachmentSurfaceID": 0
+      }
+    ],
+    "nestedCreationsRecipes": [
+      {
+        "VersionTime": "",
+        "id": "d8d2b095-4ebe-4d47-aa68-fca886753f84",
+        "CreationName": "Move Check",
+        "CreatorId": "",
+        "CreationRootId": "a4588685-c9eb-4652-a72b-61a52c3e041f",
+        "CreationData": {
+          "refIDCounter": 1,
+          "isFavorite": false,
+          "creationType": "PlayerCreation",
+          "creationName": "Move Check",
+          "description": "No Description",
+          "NodeGraph": {
+            "graphName": "Untitled NodeGraph",
+            "isMethod": false,
+            "refID": 0,
+            "refIDCounter": 12,
+            "ExecutionEnterPosition": {
+              "x": -137.394974,
+              "y": -12.1848774
+            },
+            "ExecutionExitPosition": {
+              "x": 461.764618,
+              "y": 15.88235
+            },
+            "InputPorts": [
+              {
+                "portName": "Threshold",
+                "dataType": "Bool"
+              }
+            ],
+            "OutputPorts": [
+              {
+                "portName": "IsMoving",
+                "dataType": "Bool"
+              }
+            ],
+            "ExecutionExits": [],
+            "nodes": [
+              {
+                "ID": [
+                  -1
+                ],
+                "refID": 3,
+                "linkedPieceRefID": 1,
+                "GraphPosition": {
+                  "x": -34.2857132,
+                  "y": 19.9999981
+                }
+              },
+              {
+                "ID": [
+                  61
+                ],
+                "refID": 4,
+                "linkedPieceRefID": -1,
+                "GraphPosition": {
+                  "x": 151.428558,
+                  "y": -38.5714264
+                }
+              },
+              {
+                "ID": [
+                  27
+                ],
+                "refID": 5,
+                "linkedPieceRefID": -1,
+                "GraphPosition": {
+                  "x": 62.20587,
+                  "y": -71.4863739
+                }
+              },
+              {
+                "ID": [
+                  61
+                ],
+                "refID": 6,
+                "linkedPieceRefID": -1,
+                "GraphPosition": {
+                  "x": 151.428558,
+                  "y": -71.428566
+                }
+              },
+              {
+                "ID": [
+                  61
+                ],
+                "refID": 7,
+                "linkedPieceRefID": -1,
+                "GraphPosition": {
+                  "x": 151.554611,
+                  "y": -102.857132
+                }
+              },
+              {
+                "ID": [
+                  5
+                ],
+                "refID": 9,
+                "linkedPieceRefID": -1,
+                "GraphPosition": {
+                  "x": 251.764664,
+                  "y": -45.8823471
+                }
+              },
+              {
+                "ID": [
+                  5
+                ],
+                "refID": 10,
+                "linkedPieceRefID": -1,
+                "GraphPosition": {
+                  "x": 252.3529,
+                  "y": -95.88234
+                }
+              },
+              {
+                "ID": [
+                  50
+                ],
+                "refID": 12,
+                "linkedPieceRefID": -1,
+                "GraphPosition": {
+                  "x": 351.764648,
+                  "y": 1.76470566
+                }
+              }
+            ],
+            "nodeConnections": [
+              {
+                "isExecutionPort": true,
+                "fromNodeRefID": -1,
+                "fromNodePortIndex": 0,
+                "toNodeRefID": 3,
+                "toNodePortIndex": 0
+              },
+              {
+                "isExecutionPort": false,
+                "fromNodeRefID": 5,
+                "fromNodePortIndex": 0,
+                "toNodeRefID": 4,
+                "toNodePortIndex": 0
+              },
+              {
+                "isExecutionPort": false,
+                "fromNodeRefID": 5,
+                "fromNodePortIndex": 1,
+                "toNodeRefID": 6,
+                "toNodePortIndex": 0
+              },
+              {
+                "isExecutionPort": false,
+                "fromNodeRefID": 5,
+                "fromNodePortIndex": 2,
+                "toNodeRefID": 7,
+                "toNodePortIndex": 0
+              },
+              {
+                "isExecutionPort": false,
+                "fromNodeRefID": 3,
+                "fromNodePortIndex": 1,
+                "toNodeRefID": 5,
+                "toNodePortIndex": 0
+              },
+              {
+                "isExecutionPort": false,
+                "fromNodeRefID": 4,
+                "fromNodePortIndex": 0,
+                "toNodeRefID": 9,
+                "toNodePortIndex": 0
+              },
+              {
+                "isExecutionPort": false,
+                "fromNodeRefID": 6,
+                "fromNodePortIndex": 0,
+                "toNodeRefID": 9,
+                "toNodePortIndex": 1
+              },
+              {
+                "isExecutionPort": false,
+                "fromNodeRefID": 9,
+                "fromNodePortIndex": 0,
+                "toNodeRefID": 10,
+                "toNodePortIndex": 0
+              },
+              {
+                "isExecutionPort": false,
+                "fromNodeRefID": 7,
+                "fromNodePortIndex": 0,
+                "toNodeRefID": 10,
+                "toNodePortIndex": 1
+              },
+              {
+                "isExecutionPort": false,
+                "fromNodeRefID": 10,
+                "fromNodePortIndex": 0,
+                "toNodeRefID": 12,
+                "toNodePortIndex": 0
+              },
+              {
+                "isExecutionPort": false,
+                "fromNodeRefID": -1,
+                "fromNodePortIndex": 0,
+                "toNodeRefID": 12,
+                "toNodePortIndex": 1
+              },
+              {
+                "isExecutionPort": true,
+                "fromNodeRefID": 3,
+                "fromNodePortIndex": 0,
+                "toNodeRefID": -1,
+                "toNodePortIndex": 0
+              },
+              {
+                "isExecutionPort": false,
+                "fromNodeRefID": 12,
+                "fromNodePortIndex": 0,
+                "toNodeRefID": -1,
+                "toNodePortIndex": 0
+              }
+            ],
+            "nestedNodeGraphs": [],
+            "Variables": [],
+            "Values": []
+          },
+          "pieces": [
+            {
+              "pieceID": 16,
+              "refID": 1,
+              "pieceName": "Position",
+              "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              },
+              "pieceProperties": [],
+              "pieceColor": {
+                "ColorValue": {
+                  "R": 127,
+                  "G": 127,
+                  "B": 127,
+                  "A": 255
+                },
+                "IsLinkedColor": false,
+                "ColorRefID": 0
+              }
+            }
+          ],
+          "pieceConnections": [],
+          "nestedCreationsRecipes": [],
+          "nestedCreations": [],
+          "RootRefIDs": [
+            [
+              1
+            ]
+          ]
+        },
+        "ShareId": "",
+        "CreatedAt": "2024-05-04T18:23:48.4834996Z"
+      }
+    ],
+    "nestedCreations": [
+      {
+        "refID": 6,
+        "Position": {
+          "x": 0.0,
+          "y": 2.55,
+          "z": -0.25000003
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": -0.7071067,
+          "z": 0.7071068,
+          "w": 0.0
+        },
+        "partName": "Move Check",
+        "originalCreationId": "d8d2b095-4ebe-4d47-aa68-fca886753f84"
+      }
+    ],
+    "RootRefIDs": [
+      [
+        1
+      ]
+    ]
+  },
+  "ShareId": "",
+  "CreatedAt": "2024-05-05T23:11:54.0079094Z"
+}

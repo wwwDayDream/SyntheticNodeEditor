@@ -68,6 +68,13 @@
                 </DataTemplate>
             </nodify:NodifyEditor.ItemTemplate>
             
+            <nodify:NodifyEditor.ItemContainerStyle>
+                <Style TargetType="{x:Type nodify:ItemContainer}">
+                    <Setter Property="Location" 
+                            Value="{Binding Location}" />
+                </Style>
+            </nodify:NodifyEditor.ItemContainerStyle>
+            
             <nodify:NodifyEditor.ConnectionTemplate>
                 <DataTemplate DataType="{x:Type models:ConnectionViewModel}">
                     <nodify:LineConnection Source="{Binding Source.Anchor}"

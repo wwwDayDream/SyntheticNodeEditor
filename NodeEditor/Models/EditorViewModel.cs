@@ -1,5 +1,6 @@
 using System.Collections.ObjectModel;
 using System.IO;
+using System.Windows;
 using System.Windows.Input;
 using Newtonsoft.Json;
 using NodeEditor.JsonModels;
@@ -56,6 +57,14 @@ public class EditorViewModel
         Nodes.Clear();
         Connections.Clear();
         
-        
+        foreach (var nodeGraphNode in creationObject.CreationData.NodeGraph.nodes)
+        {
+            if (nodeGraphNode.ID.First() == -1) continue;
+            
+            Nodes.Add(new NodeViewModel() {
+                Title = NodeViewModel.NodeConstructors[nodeGraphNode.ID.First()].nodeName, Location = new Point(nodeGraphNode.GraphPosition.X, nodeGraphNode.GraphPosition.Y)
+            });
+            
+        }
     }
 }

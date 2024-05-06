@@ -8,14 +8,13 @@ public partial class NodeViewModel {
     public static SyntheticNodeConstructor[]? NodeConstructors {
         get
         {
-            if (_nodeConstructors == null)
-            {
-                var stream = typeof(MainWindow).Assembly
-                    .GetManifestResourceStream(typeof(MainWindow).Namespace + SyntheticResourceName);
-                var textReader = new StreamReader(stream);
-                _nodeConstructors = JsonConvert.DeserializeObject<SyntheticNodeConstructor[]>(textReader.ReadToEnd());
-                textReader.Close();
-            }
+            if (_nodeConstructors != null) return _nodeConstructors;
+            
+            var stream = typeof(MainWindow).Assembly
+                .GetManifestResourceStream(typeof(MainWindow).Namespace + SyntheticResourceName);
+            var textReader = new StreamReader(stream);
+            _nodeConstructors = JsonConvert.DeserializeObject<SyntheticNodeConstructor[]>(textReader.ReadToEnd());
+            textReader.Close();
             return _nodeConstructors;
         }
     }

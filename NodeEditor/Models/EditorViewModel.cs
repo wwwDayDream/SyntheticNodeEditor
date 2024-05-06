@@ -42,12 +42,20 @@ public class EditorViewModel
         try
         {
             var creationObject = JsonConvert.DeserializeObject<SyntheticCreation>(File.ReadAllText(dialogFileName));
-            Console.WriteLine(creationObject);
+            Load(creationObject);
         }
         catch (Exception e)
         {
             Console.WriteLine(e.ToString());
         }
+        
+    }
+
+    private void Load(SyntheticCreation? creationObject)
+    {
+        Nodes.Clear();
+        Connections.Clear();
+        
         
     }
 }

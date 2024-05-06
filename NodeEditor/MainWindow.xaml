@@ -39,7 +39,7 @@
                              ItemsSource="{Binding Nodes}"
                              Connections="{Binding Connections}"
                              PendingConnection="{Binding PendingConnection}"
-                             DisconnectConnectorCommand="{Binding DisconnectConnectorCommand}" >
+                             DisconnectConnectorCommand="{Binding DisconnectConnectorCommand}"  >
             <nodify:NodifyEditor.DataContext>
                 <models:EditorViewModel />
             </nodify:NodifyEditor.DataContext>

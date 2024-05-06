@@ -1,6 +1,5 @@
 [
-	{
-		"className": "LSNode",
+	{	"className": "LSNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -15,8 +14,7 @@
 			}
 		]
 	},
-	{
-		"className": "LTNode",
+	{	"className": "LTNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -31,8 +29,7 @@
 			}
 		]
 	},
-	{
-		"className": "RTNode",
+	{	"className": "RTNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -47,8 +44,7 @@
 			}
 		]
 	},
-	{
-		"className": "MathNodes.Vector2SplitterNode",
+	{	"className": "MathNodes.Vector2SplitterNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -72,8 +68,7 @@
 			}
 		]
 	},
-	{
-		"className": "FloatInverterNode",
+	{	"className": "FloatInverterNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -93,8 +88,7 @@
 			}
 		]
 	},
-	{
-		"className": "FloatAdderNode",
+	{	"className": "FloatAdderNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -118,8 +112,7 @@
 			}
 		]
 	},
-	{
-		"className": "AButtonNode",
+	{	"className": "AButtonNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -134,8 +127,7 @@
 			}
 		]
 	},
-	{
-		"className": "BButtonNode",
+	{	"className": "BButtonNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -150,8 +142,7 @@
 			}
 		]
 	},
-	{
-		"className": "LBNode",
+	{	"className": "LBNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -166,8 +157,7 @@
 			}
 		]
 	},
-	{
-		"className": "RBNode",
+	{	"className": "RBNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -182,8 +172,7 @@
 			}
 		]
 	},
-	{
-		"className": "RSNode",
+	{	"className": "RSNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -198,8 +187,7 @@
 			}
 		]
 	},
-	{
-		"className": "XButtonNode",
+	{	"className": "XButtonNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -214,8 +202,7 @@
 			}
 		]
 	},
-	{
-		"className": "YButtonNode",
+	{	"className": "YButtonNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -230,8 +217,7 @@
 			}
 		]
 	},
-	{
-		"className": "BoolToFloatNode",
+	{	"className": "BoolToFloatNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -251,8 +237,7 @@
 			}
 		]
 	},
-	{
-		"className": "MultiplyFloatsNode",
+	{	"className": "MultiplyFloatsNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -276,8 +261,7 @@
 			}
 		]
 	},
-	{
-		"className": "NotNode",
+	{	"className": "NotNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -297,8 +281,7 @@
 			}
 		]
 	},
-	{
-		"className": "MathNodes.V2BuilderNode",
+	{	"className": "MathNodes.V2BuilderNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -322,8 +305,7 @@
 			}
 		]
 	},
-	{
-		"className": "MathNodes.V3AddNode",
+	{	"className": "MathNodes.V3AddNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -347,8 +329,7 @@
 			}
 		]
 	},
-	{
-		"className": "MathNodes.V3BuilderNode",
+	{	"className": "MathNodes.V3BuilderNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -376,8 +357,7 @@
 			}
 		]
 	},
-	{
-		"className": "MathNodes.V3CrossNode",
+	{	"className": "MathNodes.V3CrossNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -401,8 +381,7 @@
 			}
 		]
 	},
-	{
-		"className": "MathNodes.V3DivideNode",
+	{	"className": "MathNodes.V3DivideNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -426,8 +405,7 @@
 			}
 		]
 	},
-	{
-		"className": "MathNodes.V3DotNode",
+	{	"className": "MathNodes.V3DotNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -451,8 +429,7 @@
 			}
 		]
 	},
-	{
-		"className": "MathNodes.V3MagnitudeNode",
+	{	"className": "MathNodes.V3MagnitudeNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -472,8 +449,7 @@
 			}
 		]
 	},
-	{
-		"className": "MathNodes.VectorMultiplyNode",
+	{	"className": "MathNodes.VectorMultiplyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -497,8 +473,7 @@
 			}
 		]
 	},
-	{
-		"className": "MathNodes.V3NormalizeNode",
+	{	"className": "MathNodes.V3NormalizeNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -518,8 +493,7 @@
 			}
 		]
 	},
-	{
-		"className": "MathNodes.V3ProjectNode",
+	{	"className": "MathNodes.V3ProjectNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -543,8 +517,7 @@
 			}
 		]
 	},
-	{
-		"className": "MathNodes.V3ProjectOnPlaneNode",
+	{	"className": "MathNodes.V3ProjectOnPlaneNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -568,8 +541,7 @@
 			}
 		]
 	},
-	{
-		"className": "MathNodes.V3SplitterNode",
+	{	"className": "MathNodes.V3SplitterNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -597,8 +569,7 @@
 			}
 		]
 	},
-	{
-		"className": "MathNodes.V3SubtractNode",
+	{	"className": "MathNodes.V3SubtractNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -622,8 +593,7 @@
 			}
 		]
 	},
-	{
-		"className": "MathNodes.V3UpNode",
+	{	"className": "MathNodes.V3UpNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -638,8 +608,7 @@
 			}
 		]
 	},
-	{
-		"className": "CameraPivotHorizontalNode",
+	{	"className": "CameraPivotHorizontalNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -659,8 +628,7 @@
 			}
 		]
 	},
-	{
-		"className": "CameraPivotVerticalNode",
+	{	"className": "CameraPivotVerticalNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -680,8 +648,7 @@
 			}
 		]
 	},
-	{
-		"className": "CameraTiltHorizontalNode",
+	{	"className": "CameraTiltHorizontalNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -701,8 +668,7 @@
 			}
 		]
 	},
-	{
-		"className": "CameraTiltVerticalNode",
+	{	"className": "CameraTiltVerticalNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -722,8 +688,7 @@
 			}
 		]
 	},
-	{
-		"className": "MathNodes.V3AngleNode",
+	{	"className": "MathNodes.V3AngleNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -747,8 +712,7 @@
 			}
 		]
 	},
-	{
-		"className": "SignNode",
+	{	"className": "SignNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -768,8 +732,7 @@
 			}
 		]
 	},
-	{
-		"className": "AKeyNode",
+	{	"className": "AKeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -784,8 +747,7 @@
 			}
 		]
 	},
-	{
-		"className": "CtrlKeyNode",
+	{	"className": "CtrlKeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -800,8 +762,7 @@
 			}
 		]
 	},
-	{
-		"className": "DKeyNode",
+	{	"className": "DKeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -816,8 +777,7 @@
 			}
 		]
 	},
-	{
-		"className": "EKeyNode",
+	{	"className": "EKeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -832,8 +792,7 @@
 			}
 		]
 	},
-	{
-		"className": "QKeyCode",
+	{	"className": "QKeyCode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -848,8 +807,7 @@
 			}
 		]
 	},
-	{
-		"className": "ShiftKeyNode",
+	{	"className": "ShiftKeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -864,8 +822,7 @@
 			}
 		]
 	},
-	{
-		"className": "SKeyNode",
+	{	"className": "SKeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -880,8 +837,7 @@
 			}
 		]
 	},
-	{
-		"className": "SpaceKeyNode",
+	{	"className": "SpaceKeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -896,8 +852,7 @@
 			}
 		]
 	},
-	{
-		"className": "WKeyNode",
+	{	"className": "WKeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -912,8 +867,7 @@
 			}
 		]
 	},
-	{
-		"className": "DivideNode",
+	{	"className": "DivideNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -937,8 +891,7 @@
 			}
 		]
 	},
-	{
-		"className": "IfNode",
+	{	"className": "IfNode",
 		"description": "",
 		"ExecutionExits": [
 			{
@@ -962,8 +915,7 @@
 		"nodeName": "If",
 		"OutputPorts": []
 	},
-	{
-		"className": "DeltaTimeNode",
+	{	"className": "DeltaTimeNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -978,8 +930,7 @@
 			}
 		]
 	},
-	{
-		"className": "LessThanNode",
+	{	"className": "LessThanNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1003,8 +954,7 @@
 			}
 		]
 	},
-	{
-		"className": "LessThanOrEqualNode",
+	{	"className": "LessThanOrEqualNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1028,8 +978,7 @@
 			}
 		]
 	},
-	{
-		"className": "GreaterThanNode",
+	{	"className": "GreaterThanNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1053,8 +1002,7 @@
 			}
 		]
 	},
-	{
-		"className": "GreaterThanOrEqualNode",
+	{	"className": "GreaterThanOrEqualNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1078,8 +1026,7 @@
 			}
 		]
 	},
-	{
-		"className": "SinNode",
+	{	"className": "SinNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1099,8 +1046,7 @@
 			}
 		]
 	},
-	{
-		"className": "CosNode",
+	{	"className": "CosNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1120,8 +1066,7 @@
 			}
 		]
 	},
-	{
-		"className": "TanNode",
+	{	"className": "TanNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1141,8 +1086,7 @@
 			}
 		]
 	},
-	{
-		"className": "ClampNode",
+	{	"className": "ClampNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1170,8 +1114,7 @@
 			}
 		]
 	},
-	{
-		"className": "Clamp01Node",
+	{	"className": "Clamp01Node",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1191,8 +1134,7 @@
 			}
 		]
 	},
-	{
-		"className": "LerpNode",
+	{	"className": "LerpNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1220,8 +1162,7 @@
 			}
 		]
 	},
-	{
-		"className": "ModuloNode",
+	{	"className": "ModuloNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1245,8 +1186,7 @@
 			}
 		]
 	},
-	{
-		"className": "PowerNode",
+	{	"className": "PowerNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1270,8 +1210,7 @@
 			}
 		]
 	},
-	{
-		"className": "SubtractNode",
+	{	"className": "SubtractNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1295,8 +1234,7 @@
 			}
 		]
 	},
-	{
-		"className": "AbsNode",
+	{	"className": "AbsNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1316,8 +1254,7 @@
 			}
 		]
 	},
-	{
-		"className": "WASDNode",
+	{	"className": "WASDNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1332,8 +1269,7 @@
 			}
 		]
 	},
-	{
-		"className": "Mouse1Node",
+	{	"className": "Mouse1Node",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1348,8 +1284,7 @@
 			}
 		]
 	},
-	{
-		"className": "Mouse2Node",
+	{	"className": "Mouse2Node",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1364,8 +1299,7 @@
 			}
 		]
 	},
-	{
-		"className": "AndNode",
+	{	"className": "AndNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1389,8 +1323,7 @@
 			}
 		]
 	},
-	{
-		"className": "OrNode",
+	{	"className": "OrNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1414,8 +1347,7 @@
 			}
 		]
 	},
-	{
-		"className": "XORNode",
+	{	"className": "XORNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1439,8 +1371,7 @@
 			}
 		]
 	},
-	{
-		"className": "EqualNode",
+	{	"className": "EqualNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1464,8 +1395,7 @@
 			}
 		]
 	},
-	{
-		"className": "TernaryOperatorNode",
+	{	"className": "TernaryOperatorNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1493,8 +1423,7 @@
 			}
 		]
 	},
-	{
-		"className": "ToggleNode",
+	{	"className": "ToggleNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1514,8 +1443,7 @@
 			}
 		]
 	},
-	{
-		"className": "TriggerNode",
+	{	"className": "TriggerNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1535,8 +1463,7 @@
 			}
 		]
 	},
-	{
-		"className": "SquareRootNode",
+	{	"className": "SquareRootNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1556,8 +1483,7 @@
 			}
 		]
 	},
-	{
-		"className": "ArcCosNode",
+	{	"className": "ArcCosNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1577,8 +1503,7 @@
 			}
 		]
 	},
-	{
-		"className": "ArcSinNode",
+	{	"className": "ArcSinNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1598,8 +1523,7 @@
 			}
 		]
 	},
-	{
-		"className": "ArcTanNode",
+	{	"className": "ArcTanNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1619,8 +1543,7 @@
 			}
 		]
 	},
-	{
-		"className": "BKeyNode",
+	{	"className": "BKeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1635,8 +1558,7 @@
 			}
 		]
 	},
-	{
-		"className": "CKeyNode",
+	{	"className": "CKeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1651,8 +1573,7 @@
 			}
 		]
 	},
-	{
-		"className": "FKeyNode",
+	{	"className": "FKeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1667,8 +1588,7 @@
 			}
 		]
 	},
-	{
-		"className": "GKeyNode",
+	{	"className": "GKeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1683,8 +1603,7 @@
 			}
 		]
 	},
-	{
-		"className": "HKeyNode",
+	{	"className": "HKeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1699,8 +1618,7 @@
 			}
 		]
 	},
-	{
-		"className": "IKeyNode",
+	{	"className": "IKeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1715,8 +1633,7 @@
 			}
 		]
 	},
-	{
-		"className": "JKeyNode",
+	{	"className": "JKeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1731,8 +1648,7 @@
 			}
 		]
 	},
-	{
-		"className": "KKeyNode",
+	{	"className": "KKeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1747,8 +1663,7 @@
 			}
 		]
 	},
-	{
-		"className": "LKeyNode",
+	{	"className": "LKeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1763,8 +1678,7 @@
 			}
 		]
 	},
-	{
-		"className": "MKeyNode",
+	{	"className": "MKeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1779,8 +1693,7 @@
 			}
 		]
 	},
-	{
-		"className": "NKeyNode",
+	{	"className": "NKeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1795,8 +1708,7 @@
 			}
 		]
 	},
-	{
-		"className": "OKeyNode",
+	{	"className": "OKeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1811,8 +1723,7 @@
 			}
 		]
 	},
-	{
-		"className": "PKeyNode",
+	{	"className": "PKeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1827,8 +1738,7 @@
 			}
 		]
 	},
-	{
-		"className": "RKeyNode",
+	{	"className": "RKeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1843,8 +1753,7 @@
 			}
 		]
 	},
-	{
-		"className": "TKeyNode",
+	{	"className": "TKeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1859,8 +1768,7 @@
 			}
 		]
 	},
-	{
-		"className": "UKeyNode",
+	{	"className": "UKeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1875,8 +1783,7 @@
 			}
 		]
 	},
-	{
-		"className": "VKeyNode",
+	{	"className": "VKeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1891,8 +1798,7 @@
 			}
 		]
 	},
-	{
-		"className": "XKeyNode",
+	{	"className": "XKeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1907,8 +1813,7 @@
 			}
 		]
 	},
-	{
-		"className": "YKeyNode",
+	{	"className": "YKeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1923,8 +1828,7 @@
 			}
 		]
 	},
-	{
-		"className": "ZKeyNode",
+	{	"className": "ZKeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1939,8 +1843,7 @@
 			}
 		]
 	},
-	{
-		"className": "Num0KeyNode",
+	{	"className": "Num0KeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1955,8 +1858,7 @@
 			}
 		]
 	},
-	{
-		"className": "Num1KeyNode",
+	{	"className": "Num1KeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1971,8 +1873,7 @@
 			}
 		]
 	},
-	{
-		"className": "Num2KeyNode",
+	{	"className": "Num2KeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -1987,8 +1888,7 @@
 			}
 		]
 	},
-	{
-		"className": "Num3KeyNode",
+	{	"className": "Num3KeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -2003,8 +1903,7 @@
 			}
 		]
 	},
-	{
-		"className": "Num4KeyNode",
+	{	"className": "Num4KeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -2019,8 +1918,7 @@
 			}
 		]
 	},
-	{
-		"className": "Num5KeyNode",
+	{	"className": "Num5KeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -2035,8 +1933,7 @@
 			}
 		]
 	},
-	{
-		"className": "Num6KeyNode",
+	{	"className": "Num6KeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -2051,8 +1948,7 @@
 			}
 		]
 	},
-	{
-		"className": "Num7KeyNode",
+	{	"className": "Num7KeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -2067,8 +1963,7 @@
 			}
 		]
 	},
-	{
-		"className": "Num8KeyNode",
+	{	"className": "Num8KeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",
@@ -2083,8 +1978,7 @@
 			}
 		]
 	},
-	{
-		"className": "Num9KeyNode",
+	{	"className": "Num9KeyNode",
 		"description": "",
 		"ExecutionExits": [],
 		"hideFlags": "None",

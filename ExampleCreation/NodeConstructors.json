@@ -1,0 +1,2102 @@
+[
+	{
+		"className": "LSNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "LSCon",
+		"nodeName": "LS",
+		"OutputPorts": [
+			{
+				"dataType": "Vector2",
+				"portName": "V2"
+			}
+		]
+	},
+	{
+		"className": "LTNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "LTCon",
+		"nodeName": "LT",
+		"OutputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Float"
+			}
+		]
+	},
+	{
+		"className": "RTNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "RTCon",
+		"nodeName": "RT",
+		"OutputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Float"
+			}
+		]
+	},
+	{
+		"className": "MathNodes.Vector2SplitterNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Vector2",
+				"portName": "V2"
+			}
+		],
+		"isExecutable": false,
+		"name": "V2Splitter",
+		"nodeName": "V2 Splitter",
+		"OutputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "X"
+			},
+			{
+				"dataType": "Float",
+				"portName": "Y"
+			}
+		]
+	},
+	{
+		"className": "FloatInverterNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "In"
+			}
+		],
+		"isExecutable": false,
+		"name": "FloatInverterCon",
+		"nodeName": "Float Invert",
+		"OutputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Out"
+			}
+		]
+	},
+	{
+		"className": "FloatAdderNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "A"
+			},
+			{
+				"dataType": "Float",
+				"portName": "B"
+			}
+		],
+		"isExecutable": false,
+		"name": "FloatAddCon",
+		"nodeName": "Float Add",
+		"OutputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Result"
+			}
+		]
+	},
+	{
+		"className": "AButtonNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "AButtonCon",
+		"nodeName": "A Button",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "BButtonNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "BButtonCon",
+		"nodeName": "B Button",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "LBNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "LBCon",
+		"nodeName": "LB",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "RBNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "RBCon",
+		"nodeName": "RB",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "RSNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "RSNode",
+		"nodeName": "RS",
+		"OutputPorts": [
+			{
+				"dataType": "Vector2",
+				"portName": "V2"
+			}
+		]
+	},
+	{
+		"className": "XButtonNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "XButtonCon",
+		"nodeName": "X Button",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "YButtonNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "YButtonCon",
+		"nodeName": "Y Button",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "BoolToFloatNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		],
+		"isExecutable": false,
+		"name": "BoolToFloatCon",
+		"nodeName": "Bool To Float",
+		"OutputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Float"
+			}
+		]
+	},
+	{
+		"className": "MultiplyFloatsNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "A"
+			},
+			{
+				"dataType": "Float",
+				"portName": "B"
+			}
+		],
+		"isExecutable": false,
+		"name": "FloatMultiplyCon",
+		"nodeName": "Float Multiply",
+		"OutputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Result"
+			}
+		]
+	},
+	{
+		"className": "NotNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "A"
+			}
+		],
+		"isExecutable": false,
+		"name": "NotCon",
+		"nodeName": "Not",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "!A"
+			}
+		]
+	},
+	{
+		"className": "MathNodes.V2BuilderNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Float X"
+			},
+			{
+				"dataType": "Float",
+				"portName": "Float Y"
+			}
+		],
+		"isExecutable": false,
+		"name": "V2BuilderCon",
+		"nodeName": "V2 Builder",
+		"OutputPorts": [
+			{
+				"dataType": "Vector2",
+				"portName": "V2"
+			}
+		]
+	},
+	{
+		"className": "MathNodes.V3AddNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "V3 A"
+			},
+			{
+				"dataType": "Vector3",
+				"portName": "V3 B"
+			}
+		],
+		"isExecutable": false,
+		"name": "V3AddCon",
+		"nodeName": "V3 Add",
+		"OutputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "V3 Result"
+			}
+		]
+	},
+	{
+		"className": "MathNodes.V3BuilderNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Float X"
+			},
+			{
+				"dataType": "Float",
+				"portName": "Float Y"
+			},
+			{
+				"dataType": "Float",
+				"portName": "Float Z"
+			}
+		],
+		"isExecutable": false,
+		"name": "V3BuilderCon",
+		"nodeName": "V3 Builder",
+		"OutputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "V3"
+			}
+		]
+	},
+	{
+		"className": "MathNodes.V3CrossNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "V3 A"
+			},
+			{
+				"dataType": "Vector3",
+				"portName": "V3 B"
+			}
+		],
+		"isExecutable": false,
+		"name": "V3CrossCon",
+		"nodeName": "V3 Cross",
+		"OutputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "V3 Result"
+			}
+		]
+	},
+	{
+		"className": "MathNodes.V3DivideNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "V3"
+			},
+			{
+				"dataType": "Float",
+				"portName": "Float"
+			}
+		],
+		"isExecutable": false,
+		"name": "V3DivideCon",
+		"nodeName": "V3 Divide",
+		"OutputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "V3"
+			}
+		]
+	},
+	{
+		"className": "MathNodes.V3DotNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "V3 A"
+			},
+			{
+				"dataType": "Vector3",
+				"portName": "V3 B"
+			}
+		],
+		"isExecutable": false,
+		"name": "V3DotCon",
+		"nodeName": "V3 Dot",
+		"OutputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Float"
+			}
+		]
+	},
+	{
+		"className": "MathNodes.V3MagnitudeNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "V3"
+			}
+		],
+		"isExecutable": false,
+		"name": "V3MagnitudeCon",
+		"nodeName": "V3 Magnitude",
+		"OutputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Float"
+			}
+		]
+	},
+	{
+		"className": "MathNodes.VectorMultiplyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "V3"
+			},
+			{
+				"dataType": "Float",
+				"portName": "Float"
+			}
+		],
+		"isExecutable": false,
+		"name": "V3MultiplyCon",
+		"nodeName": "V3 Multiply",
+		"OutputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "V3"
+			}
+		]
+	},
+	{
+		"className": "MathNodes.V3NormalizeNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "V3"
+			}
+		],
+		"isExecutable": false,
+		"name": "V3NormalizeCon",
+		"nodeName": "V3 Normalize",
+		"OutputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "V3"
+			}
+		]
+	},
+	{
+		"className": "MathNodes.V3ProjectNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "V3 A"
+			},
+			{
+				"dataType": "Vector3",
+				"portName": "V3 B"
+			}
+		],
+		"isExecutable": false,
+		"name": "V3ProjectCon",
+		"nodeName": "V3 Project",
+		"OutputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "V3"
+			}
+		]
+	},
+	{
+		"className": "MathNodes.V3ProjectOnPlaneNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "V3"
+			},
+			{
+				"dataType": "Vector3",
+				"portName": "Plane Normal"
+			}
+		],
+		"isExecutable": false,
+		"name": "V3ProjectOnPlaneCon",
+		"nodeName": "V3 Project On Plane",
+		"OutputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "Result"
+			}
+		]
+	},
+	{
+		"className": "MathNodes.V3SplitterNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "V3"
+			}
+		],
+		"isExecutable": false,
+		"name": "V3SplitterCon",
+		"nodeName": "V3 Splitter",
+		"OutputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "X"
+			},
+			{
+				"dataType": "Float",
+				"portName": "Y"
+			},
+			{
+				"dataType": "Float",
+				"portName": "Z"
+			}
+		]
+	},
+	{
+		"className": "MathNodes.V3SubtractNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "V3 A"
+			},
+			{
+				"dataType": "Vector3",
+				"portName": "V3 B"
+			}
+		],
+		"isExecutable": false,
+		"name": "V3SubtractCon",
+		"nodeName": "V3 Subtract",
+		"OutputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "V3 Result"
+			}
+		]
+	},
+	{
+		"className": "MathNodes.V3UpNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "V3UpCon",
+		"nodeName": "V3 Up",
+		"OutputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "V3 Up"
+			}
+		]
+	},
+	{
+		"className": "CameraPivotHorizontalNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Vector2",
+				"portName": "V2"
+			}
+		],
+		"isExecutable": false,
+		"name": "CameraPivotHorizontalCon",
+		"nodeName": "Camera Pivot Horizontal",
+		"OutputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "V3"
+			}
+		]
+	},
+	{
+		"className": "CameraPivotVerticalNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Vector2",
+				"portName": "V2"
+			}
+		],
+		"isExecutable": false,
+		"name": "CameraPivotVerticalCon",
+		"nodeName": "Camera Pivot Vertical",
+		"OutputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "V3"
+			}
+		]
+	},
+	{
+		"className": "CameraTiltHorizontalNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Vector2",
+				"portName": "V2"
+			}
+		],
+		"isExecutable": false,
+		"name": "CameraTiltHorizontalCon",
+		"nodeName": "Camera Tilt Horizontal",
+		"OutputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "V3"
+			}
+		]
+	},
+	{
+		"className": "CameraTiltVerticalNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Vector2",
+				"portName": "V2"
+			}
+		],
+		"isExecutable": false,
+		"name": "CameraTiltVerticalCon",
+		"nodeName": "Camera Tilt Vertical",
+		"OutputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "V3"
+			}
+		]
+	},
+	{
+		"className": "MathNodes.V3AngleNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "V3 A"
+			},
+			{
+				"dataType": "Vector3",
+				"portName": "V3 B"
+			}
+		],
+		"isExecutable": false,
+		"name": "V3AngleCon",
+		"nodeName": "V3 Angle",
+		"OutputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Angle"
+			}
+		]
+	},
+	{
+		"className": "SignNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Float"
+			}
+		],
+		"isExecutable": false,
+		"name": "SignNodeCon",
+		"nodeName": "Sign",
+		"OutputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Float"
+			}
+		]
+	},
+	{
+		"className": "AKeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "AKeyNode",
+		"nodeName": "A Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "bool"
+			}
+		]
+	},
+	{
+		"className": "CtrlKeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "CtrlKeyNodeCon",
+		"nodeName": "Ctrl Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "bool"
+			}
+		]
+	},
+	{
+		"className": "DKeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "DKeyNodeCon",
+		"nodeName": "D Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "bool"
+			}
+		]
+	},
+	{
+		"className": "EKeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "EKeyNodeCon",
+		"nodeName": "E Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "bool"
+			}
+		]
+	},
+	{
+		"className": "QKeyCode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "QKeyNodeCon",
+		"nodeName": "Q Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "bool"
+			}
+		]
+	},
+	{
+		"className": "ShiftKeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "ShiftKeyNodeCon",
+		"nodeName": "Shift Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "bool"
+			}
+		]
+	},
+	{
+		"className": "SKeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "SKeyNodeCon",
+		"nodeName": "S Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "bool"
+			}
+		]
+	},
+	{
+		"className": "SpaceKeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "SpaceKeyNodeCon",
+		"nodeName": "Space Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "bool"
+			}
+		]
+	},
+	{
+		"className": "WKeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "WKeyNodeCon",
+		"nodeName": "W Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "bool"
+			}
+		]
+	},
+	{
+		"className": "DivideNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "A"
+			},
+			{
+				"dataType": "Float",
+				"portName": "B"
+			}
+		],
+		"isExecutable": false,
+		"name": "FloatDivideCon",
+		"nodeName": "Float Divide",
+		"OutputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Float"
+			}
+		]
+	},
+	{
+		"className": "IfNode",
+		"description": "",
+		"ExecutionExits": [
+			{
+				"dataType": "Bool",
+				"portName": "True"
+			},
+			{
+				"dataType": "Bool",
+				"portName": "False"
+			}
+		],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Condition"
+			}
+		],
+		"isExecutable": true,
+		"name": "IfNodeCon",
+		"nodeName": "If",
+		"OutputPorts": []
+	},
+	{
+		"className": "DeltaTimeNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "DeltaTimeCon",
+		"nodeName": "Delta Time",
+		"OutputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Float"
+			}
+		]
+	},
+	{
+		"className": "LessThanNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "A"
+			},
+			{
+				"dataType": "Float",
+				"portName": "B"
+			}
+		],
+		"isExecutable": false,
+		"name": "LessThanCon",
+		"nodeName": "Less Than",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "LessThanOrEqualNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "A"
+			},
+			{
+				"dataType": "Float",
+				"portName": "B"
+			}
+		],
+		"isExecutable": false,
+		"name": "LessThanOrEqualCon",
+		"nodeName": "Less Than or Equal",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "GreaterThanNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "A"
+			},
+			{
+				"dataType": "Float",
+				"portName": "B"
+			}
+		],
+		"isExecutable": false,
+		"name": "GreaterThanCon",
+		"nodeName": "Greater Than",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "GreaterThanOrEqualNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "A"
+			},
+			{
+				"dataType": "Float",
+				"portName": "B"
+			}
+		],
+		"isExecutable": false,
+		"name": "GreaterThanOrEqualCon",
+		"nodeName": "Greater Than or Equal",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "SinNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Angle (deg)"
+			}
+		],
+		"isExecutable": false,
+		"name": "SinCon",
+		"nodeName": "Sin",
+		"OutputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Value"
+			}
+		]
+	},
+	{
+		"className": "CosNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Angle (deg)"
+			}
+		],
+		"isExecutable": false,
+		"name": "CosCon",
+		"nodeName": "Cos",
+		"OutputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Value"
+			}
+		]
+	},
+	{
+		"className": "TanNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Angle (deg)"
+			}
+		],
+		"isExecutable": false,
+		"name": "TanCon",
+		"nodeName": "Tan",
+		"OutputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Value"
+			}
+		]
+	},
+	{
+		"className": "ClampNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Value"
+			},
+			{
+				"dataType": "Float",
+				"portName": "Min"
+			},
+			{
+				"dataType": "Float",
+				"portName": "Max"
+			}
+		],
+		"isExecutable": false,
+		"name": "ClampCon",
+		"nodeName": "Clamp",
+		"OutputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Result"
+			}
+		]
+	},
+	{
+		"className": "Clamp01Node",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Value"
+			}
+		],
+		"isExecutable": false,
+		"name": "Clamp01Con",
+		"nodeName": "Clamp 01",
+		"OutputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Result"
+			}
+		]
+	},
+	{
+		"className": "LerpNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "A"
+			},
+			{
+				"dataType": "Float",
+				"portName": "B"
+			},
+			{
+				"dataType": "Float",
+				"portName": "T (0,1)"
+			}
+		],
+		"isExecutable": false,
+		"name": "FloatLerpCon",
+		"nodeName": "Float Lerp",
+		"OutputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Result"
+			}
+		]
+	},
+	{
+		"className": "ModuloNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "A"
+			},
+			{
+				"dataType": "Float",
+				"portName": "B"
+			}
+		],
+		"isExecutable": false,
+		"name": "ModCon",
+		"nodeName": "Modulo (%)",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Remainder"
+			}
+		]
+	},
+	{
+		"className": "PowerNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Base"
+			},
+			{
+				"dataType": "Float",
+				"portName": "Power"
+			}
+		],
+		"isExecutable": false,
+		"name": "PowerCon",
+		"nodeName": "Power",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Result"
+			}
+		]
+	},
+	{
+		"className": "SubtractNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "A"
+			},
+			{
+				"dataType": "Float",
+				"portName": "B"
+			}
+		],
+		"isExecutable": false,
+		"name": "SubtractCon",
+		"nodeName": "Float Subtract",
+		"OutputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Result"
+			}
+		]
+	},
+	{
+		"className": "AbsNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Value"
+			}
+		],
+		"isExecutable": false,
+		"name": "AbsCon",
+		"nodeName": "Abs",
+		"OutputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Result"
+			}
+		]
+	},
+	{
+		"className": "WASDNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "WASDNodeCon",
+		"nodeName": "WASD",
+		"OutputPorts": [
+			{
+				"dataType": "Vector2",
+				"portName": "V2"
+			}
+		]
+	},
+	{
+		"className": "Mouse1Node",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "Mouse1NodeCon",
+		"nodeName": "Mouse 1",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "Mouse2Node",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "Mouse2NodeCon",
+		"nodeName": "Mouse 2",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "AndNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "A"
+			},
+			{
+				"dataType": "Bool",
+				"portName": "B"
+			}
+		],
+		"isExecutable": false,
+		"name": "AndNodeCon",
+		"nodeName": "AND",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "OrNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "A"
+			},
+			{
+				"dataType": "Bool",
+				"portName": "B"
+			}
+		],
+		"isExecutable": false,
+		"name": "OrNodeCon",
+		"nodeName": "OR",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "XORNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "A"
+			},
+			{
+				"dataType": "Bool",
+				"portName": "B"
+			}
+		],
+		"isExecutable": false,
+		"name": "XORNodeCon",
+		"nodeName": "XOR",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "EqualNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "A"
+			},
+			{
+				"dataType": "Float",
+				"portName": "B"
+			}
+		],
+		"isExecutable": false,
+		"name": "EqualNodeCon",
+		"nodeName": "Equal",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "TernaryOperatorNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Condition"
+			},
+			{
+				"dataType": "Bool",
+				"portName": "Value A"
+			},
+			{
+				"dataType": "Bool",
+				"portName": "Value B"
+			}
+		],
+		"isExecutable": false,
+		"name": "TernaryOperatorNodeCon",
+		"nodeName": "Ternary Operator",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Chosen Value"
+			}
+		]
+	},
+	{
+		"className": "ToggleNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "bool"
+			}
+		],
+		"isExecutable": false,
+		"name": "ToggleNodeCon",
+		"nodeName": "ToggleNode",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "bool"
+			}
+		]
+	},
+	{
+		"className": "TriggerNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "bool"
+			}
+		],
+		"isExecutable": false,
+		"name": "TriggerNodeCon",
+		"nodeName": "Trigger",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "bool"
+			}
+		]
+	},
+	{
+		"className": "SquareRootNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Value"
+			}
+		],
+		"isExecutable": false,
+		"name": "SquareRootCon",
+		"nodeName": "Square Root",
+		"OutputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Result"
+			}
+		]
+	},
+	{
+		"className": "ArcCosNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Value"
+			}
+		],
+		"isExecutable": false,
+		"name": "ArcCosNodeCon",
+		"nodeName": "Arc Cos",
+		"OutputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Angle (deg)"
+			}
+		]
+	},
+	{
+		"className": "ArcSinNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Value"
+			}
+		],
+		"isExecutable": false,
+		"name": "ArcSinNodeCon",
+		"nodeName": "Arc Sin",
+		"OutputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Angle (deg)"
+			}
+		]
+	},
+	{
+		"className": "ArcTanNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Value"
+			}
+		],
+		"isExecutable": false,
+		"name": "ArcTanNodeCon",
+		"nodeName": "Arc Tan",
+		"OutputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Angle (deg)"
+			}
+		]
+	},
+	{
+		"className": "BKeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "BKeyNodeCon",
+		"nodeName": "B Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "CKeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "CKeyNodeCon",
+		"nodeName": "C Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "FKeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "FKeyNodeCon",
+		"nodeName": "F Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "GKeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "GKeyNodeCon",
+		"nodeName": "G Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "HKeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "HKeyNodeCon",
+		"nodeName": "H Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "IKeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "IKeyNodeCon",
+		"nodeName": "I Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "JKeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "JKeyNodeCon",
+		"nodeName": "J Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "KKeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "KKeyNodeCon",
+		"nodeName": "K Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "LKeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "LKeyNodeCon",
+		"nodeName": "L Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "MKeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "MKeyNodeCon",
+		"nodeName": "M Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "NKeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "NKeyNodeCon",
+		"nodeName": "N Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "OKeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "OKeyNodeCon",
+		"nodeName": "O Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "PKeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "PKeyNodeCon",
+		"nodeName": "P Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "RKeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "RKeyNodeCon",
+		"nodeName": "R Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "TKeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "TKeyNodeCon",
+		"nodeName": "T Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "UKeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "UKeyNodeCon",
+		"nodeName": "U Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "VKeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "VKeyNodeCon",
+		"nodeName": "V Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "XKeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "XKeyNodeCon",
+		"nodeName": "X Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "YKeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "YKeyNodeCon",
+		"nodeName": "Y Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "ZKeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "ZKeyNodeCon",
+		"nodeName": "Z Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "Num0KeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "Num0KeyNode",
+		"nodeName": "Num 0 Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "Num1KeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "Num1KeyNode",
+		"nodeName": "Num 1 Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "Num2KeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "Num2KeyNode",
+		"nodeName": "Num 2 Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "Num3KeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "Num3KeyNode",
+		"nodeName": "Num 3 Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "Num4KeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "Num4KeyNode",
+		"nodeName": "Num 4 Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "Num5KeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "Num5KeyNode",
+		"nodeName": "Num 5 Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "Num6KeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "Num6KeyNode",
+		"nodeName": "Num 6 Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "Num7KeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "Num7KeyNode",
+		"nodeName": "Num 7 Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "Num8KeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "Num8KeyNode",
+		"nodeName": "Num 8 Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	},
+	{
+		"className": "Num9KeyNode",
+		"description": "",
+		"ExecutionExits": [],
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isExecutable": false,
+		"name": "Num9KeyNode",
+		"nodeName": "Num 9 Key",
+		"OutputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		]
+	}
+]

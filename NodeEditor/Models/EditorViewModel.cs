@@ -59,10 +59,11 @@ public class EditorViewModel
         
         foreach (var nodeGraphNode in creationObject.CreationData.NodeGraph.nodes)
         {
-            if (nodeGraphNode.ID.First() == -1) continue;
+            if (nodeGraphNode.ID.First() < 0) continue;
             
             Nodes.Add(new NodeViewModel() {
-                Title = NodeViewModel.NodeConstructors[nodeGraphNode.ID.First()].nodeName, Location = new Point(nodeGraphNode.GraphPosition.X, nodeGraphNode.GraphPosition.Y)
+                Title = NodeViewModel.NodeConstructors[nodeGraphNode.ID.First()].nodeName, 
+                Location = new Point(nodeGraphNode.GraphPosition.X, -nodeGraphNode.GraphPosition.Y)
             });
             
         }

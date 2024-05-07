@@ -69,6 +69,23 @@ public class EditorViewModel
         Connections.Clear();
 
 		GenerateNodes(creationObject.CreationData);
+
+		foreach (NodeConnection connection in creationObject.CreationData.NodeGraph.nodeConnections) {
+			NodeViewModel? from = Nodes.FirstOrDefault(n => n.ID == connection.fromNodeRefID);
+			NodeViewModel? to = Nodes.FirstOrDefault(n => n.ID == connection.toNodeRefID);
+			if (from == null || to == null) continue;
+
+			try { //TODO Add the enter/exit ports so that the -1 ports dont cause this exception
+				Connections.Add(new ConnectionViewModel (
+					from.Output[connection.fromNodePortIndex],
+					to.Input[connection.toNodePortIndex]
+				));
+			} catch (System.Exception e) {
+				Console.WriteLine($"{from.Title} - Connection.Add: {e.Message}");
+			}
+		}
+    }
+
 	public void GenerateNodes(CreationData data) {
 		//TODO Create a class to do this in there ti clean up this script a bit
         foreach (var nodeGraphNode in data.NodeGraph.nodes)
@@ -117,6 +134,7 @@ public class EditorViewModel
 			//TODO Improve node default positioning to start in the center
             Nodes.Add(new NodeViewModel() {
                 Title = title,
+				ID = nodeGraphNode.refID,
 				//? x&y + window width * 0.4 and 0.2 : to center it more in the window from startup
 				//! Dont forget to remove this once there are better positioning methods
                 Location = new Point(
@@ -127,7 +145,7 @@ public class EditorViewModel
 				Output = PortsToConnectors(outputPorts)
             });
         }
-    }
+	}
 
 	public ObservableCollection<ConnectorViewModel> PortsToConnectors(PortConstructor[] ports) {
 		ObservableCollection<ConnectorViewModel> connectors = [];

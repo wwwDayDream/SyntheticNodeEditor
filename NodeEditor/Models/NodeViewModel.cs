@@ -18,6 +18,7 @@ public partial class NodeViewModel : INotifyPropertyChanged {
 
     public event PropertyChangedEventHandler PropertyChanged;
     public string Title { get; set; }
+	public int ID { get; set; } //? So it can be found back while going through connections in EditorViewModel
     public ObservableCollection<ConnectorViewModel> Input { get; set; } = new ObservableCollection<ConnectorViewModel>();
     public ObservableCollection<ConnectorViewModel> Output { get; set; } = new ObservableCollection<ConnectorViewModel>();
 

@@ -2,7 +2,11 @@ namespace NodeEditor.Models;
 
 public class ConnectionViewModel
 {
-    public ConnectionViewModel(ConnectorViewModel source, ConnectorViewModel target)
+	public ConnectionViewModel()
+	{
+	}
+
+	public ConnectionViewModel(ConnectorViewModel source, ConnectorViewModel target)
     {
         Source = source;
         Target = target;

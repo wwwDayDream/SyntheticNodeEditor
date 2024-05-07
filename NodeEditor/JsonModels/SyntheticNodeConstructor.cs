@@ -5,7 +5,7 @@ public class SyntheticNodeConstructor {
     public string description;
     public bool isExecutable;
     public string nodeName;
-    public SyntheticPort[] ExecutionExits;
-    public SyntheticPort[] InputPorts;
-    public SyntheticPort[] OutputPorts;
+    public SyntheticPortConstructor[] ExecutionExits;
+    public SyntheticPortConstructor[] InputPorts;
+    public SyntheticPortConstructor[] OutputPorts;
 }

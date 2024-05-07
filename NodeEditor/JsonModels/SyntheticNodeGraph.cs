@@ -9,8 +9,8 @@ public class SyntheticNodeGraph {
     public int refIDCounter;
     public Vector2 ExecutionEnterPosition;
     public Vector2 ExecutionExitPosition;
-    public SyntheticPort[] InputPorts;
-    public SyntheticPort[] OutputPorts;
+    public SyntheticPortConstructor[] InputPorts;
+    public SyntheticPortConstructor[] OutputPorts;
     public SyntheticNode[] nodes;
     public SyntheticNodeConnection[] nodeConnections;
     public SyntheticVariable[] Variables;

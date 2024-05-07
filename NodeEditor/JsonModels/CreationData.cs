@@ -1,4 +1,5 @@
 using NodeEditor.JsonModels.Node;
+using NodeEditor.JsonModels.Piece;
 
 namespace NodeEditor.JsonModels;
 
@@ -10,4 +11,5 @@ public class CreationData {
     public string description;
 
     public NodeGraph NodeGraph;
+	public PiecePart[] pieces;
 }

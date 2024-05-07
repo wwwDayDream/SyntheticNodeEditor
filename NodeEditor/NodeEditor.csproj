@@ -15,8 +15,10 @@
     </ItemGroup>
     
     <ItemGroup>
-      <None Remove="SyntheticNodes.dat" />
-      <EmbeddedResource Include="SyntheticNodes.dat" />
+      <!-- <None Remove="SyntheticNodes.dat" />
+      <None Remove="SyntheticPieces.dat" /> -->
+      <EmbeddedResource Include="Resources/SyntheticNodes.dat" />
+      <EmbeddedResource Include="Resources/SyntheticPieces.dat" />
     </ItemGroup>
 
 </Project>

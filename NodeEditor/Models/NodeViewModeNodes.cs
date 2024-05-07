@@ -7,6 +7,11 @@ using NodeEditor.JsonModels.Piece;
 namespace NodeEditor.Models;
 
 public partial class NodeViewModel {
+	private const string SyntheticNodeResourceName = ".Resources.SyntheticNodes.dat";
+    private const string SyntheticPieceResourceName = ".Resources.SyntheticPieces.dat";
+    private static NodeConstructor[]? _nodeConstructors = null;
+    private static PieceConstructor[]? _pieceConstructors = null;
+
     public static NodeConstructor[]? NodeConstructors {
         get
         {
@@ -30,11 +35,13 @@ public partial class NodeViewModel {
             var textReader = new StreamReader(stream);
             _pieceConstructors = JsonConvert.DeserializeObject<PieceConstructor[]>(textReader.ReadToEnd());
             textReader.Close();
+
+			//* This is the way to do it without embedding
+			// _pieceConstructors = JsonConvert.DeserializeObject<PieceConstructor[]>(
+			// 	File.ReadAllText(SyntheticPieceResourceName)
+			// );
+
             return _pieceConstructors;
         }
     }
-    private const string SyntheticNodeResourceName = ".SyntheticNodes.dat";
-    private const string SyntheticPieceResourceName = ".SyntheticPieces.dat";
-    private static NodeConstructor[]? _nodeConstructors = null;
-    private static PieceConstructor[]? _pieceConstructors = null;
 }

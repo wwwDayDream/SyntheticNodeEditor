@@ -67,10 +67,12 @@ public class EditorViewModel
         Nodes.Clear();
         Connections.Clear();
 
+		//TODO Create a class to do this in there ti clean up this script a bit
         foreach (var nodeGraphNode in creationObject.CreationData.NodeGraph.nodes)
         {
 			int nodeID = nodeGraphNode.ID.First();
-			int pieceID = Array.Find(creationObject.CreationData.pieces, p => p.refID == nodeGraphNode.linkedPieceRefID).pieceID;
+			int pieceID = -1; //? will be set in the switch if nodeID = -1
+			Console.WriteLine($"\nlinked piece: {nodeGraphNode.linkedPieceRefID}");
 			
 			NodeConstructorType constructorType = 
 				(nodeID > -1) ? NodeConstructorType.node : 
@@ -89,8 +91,8 @@ public class EditorViewModel
 					outputPorts = constructor.OutputPorts;
 				} break;
 				case NodeConstructorType.piece: {
-					//!ERROR: Value cannot be null. (Parameter 'stream')
-					//> ./NodeEditor\Models\NodeViewModeNodes.cs:line 30
+					pieceID = Array.Find(creationObject.CreationData.pieces, p => p.refID == nodeGraphNode.linkedPieceRefID).pieceID;
+					Console.WriteLine($"Piece ID: {pieceID}");
 					PieceConstructor constructor = NodeViewModel.PieceConstructors[pieceID];
 					title = constructor.pieceName;
 					inputPorts = constructor.InputPorts;
@@ -100,14 +102,17 @@ public class EditorViewModel
 				default: continue;
 			}
 
-			Console.WriteLine(title);
+			Console.WriteLine($"Title: {title}");
             
 			//TODO Improve node default positioning to start in the center
             Nodes.Add(new NodeViewModel() {
                 Title = title,
 				//? x&y + window width * 0.4 and 0.2 : to center it more in the window from startup
 				//! Dont forget to remove this once there are better positioning methods
-                Location = new Point(nodeGraphNode.GraphPosition.X + (MainWindow.WinWidth * 0.4f), -nodeGraphNode.GraphPosition.Y + (MainWindow.WinWidth * 0.2f)),
+                Location = new Point(
+					nodeGraphNode.GraphPosition.X + (MainWindow.WinWidth * 0.4f), 
+					-nodeGraphNode.GraphPosition.Y + (MainWindow.WinWidth * 0.2f)
+				),
 				Input = PortsToConnectors(inputPorts),
 				Output = PortsToConnectors(outputPorts)
             });

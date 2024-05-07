@@ -58,12 +58,26 @@ public class EditorViewModel
         Connections.Clear();
         
         foreach (var nodeGraphNode in creationObject.CreationData.NodeGraph.nodes)
-        {
-            if (nodeGraphNode.ID.First() < 0) continue;
+        {	
+			int nodeID = nodeGraphNode.ID.First();
+            if (nodeID < 0) continue;
             
+			//TODO Improve node default positioning to start in the center
             Nodes.Add(new NodeViewModel() {
-                Title = NodeViewModel.NodeConstructors[nodeGraphNode.ID.First()].nodeName, 
-                Location = new Point(nodeGraphNode.GraphPosition.X, -nodeGraphNode.GraphPosition.Y)
+                Title = NodeViewModel.NodeConstructors[nodeID].nodeName,
+				//? x&y + window width * 0.4 and 0.2 : to center it more in the window from startup
+				//! Dont forget to remove this once there are better positioning methods
+                Location = new Point(nodeGraphNode.GraphPosition.X + (MainWindow.WinWidth * 0.4f), -nodeGraphNode.GraphPosition.Y + (MainWindow.WinWidth * 0.2f)),
+				Input = new ObservableCollection<ConnectorViewModel> {
+					new ConnectorViewModel {
+						Title = "In"
+					}
+				},
+				Output = new ObservableCollection<ConnectorViewModel> {
+					new ConnectorViewModel {
+						Title = "Out"
+					}
+				}
             });
             
         }

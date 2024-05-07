@@ -17,7 +17,9 @@ public partial class MainWindow : Window {
 		this.Title = WinTitle;
 		this.Width = WinWidth;
 		this.Height = WinHeight;
-		this.Left = 1920;
+		#if DEBUG
+		this.Left = 1920; //! Will be off screen if user doesnt have a second screan
+		#endif
 		this.Show();
         InitializeComponent();
 		Console.WriteLine("START");

@@ -6,8 +6,7 @@
         xmlns:local="clr-namespace:NodeEditor"
         xmlns:nodify="https://miroiu.github.io/nodify"
         xmlns:models="clr-namespace:NodeEditor.Models"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" >
+        mc:Ignorable="d">
     
     <Window.Resources>
         <GeometryDrawing x:Key="SmallGridGeometry"

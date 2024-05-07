@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System.IO;
+using System.Windows;
 using NodeEditor.Models;
 
 namespace NodeEditor;
@@ -7,10 +8,20 @@ namespace NodeEditor;
 /// Interaction logic for MainWindow.xaml
 /// </summary>
 public partial class MainWindow : Window {
-    
+	public static string WinTitle = "SyntheticNodeEditor";
+	public static double WinWidth = 1000;
+	public static double WinHeight = 600;
+
     public MainWindow()
     {
+		this.Title = WinTitle;
+		this.Width = WinWidth;
+		this.Height = WinHeight;
+		this.Left = 1920;
+		this.Show();
         InitializeComponent();
+		Console.WriteLine("START");
+		((EditorViewModel)NodeEditor.DataContext).OnFileOpened(Path.Combine(Environment.CurrentDirectory, @"..\ExampleCreation\5dfee9de-305b-4886-ad5d-bee897758293.json"));
     }
 
     private void FileOpened(object sender, RoutedEventArgs e)

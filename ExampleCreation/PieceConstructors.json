@@ -1,0 +1,5911 @@
+[
+	{
+		"availability": "All",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Block",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "BlockCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [
+			{
+				"defaultValue": {
+					"data": "20",
+					"type": "Float"
+				},
+				"propertyName": "Mass"
+			}
+		],
+		"pieceName": "Block",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Block",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Wheel",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "WheelCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Wheel",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Wheel",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "All",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Motor",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Throttle"
+			},
+			{
+				"dataType": "Float",
+				"portName": "Break"
+			}
+		],
+		"isFunctional": true,
+		"name": "MotorCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "DNU",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Motor",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time X Servo",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[
+					[]
+				],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Target"
+			}
+		],
+		"isFunctional": true,
+		"name": "XServoCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "DNU",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor X Servo",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Piston",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[
+					[
+						[],
+						[],
+						[]
+					],
+					[]
+				],
+				[
+					[],
+					[
+						[],
+						[],
+						[]
+					]
+				]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "PistonCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "DNU",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Piston",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[
+					[
+						[],
+						[],
+						[]
+					],
+					[]
+				],
+				[
+					[],
+					[
+						[],
+						[],
+						[]
+					]
+				],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Attractor",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[
+					[]
+				]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Activation"
+			}
+		],
+		"isFunctional": true,
+		"name": "AttractorCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [
+			{
+				"defaultValue": {
+					"data": "500",
+					"type": "Float"
+				},
+				"propertyName": "Force"
+			},
+			{
+				"defaultValue": {
+					"data": "1",
+					"type": "Float"
+				},
+				"propertyName": "Distance"
+			}
+		],
+		"pieceName": "Attractor",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Attractor",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Repulsor",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[
+					[]
+				]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Activation"
+			}
+		],
+		"isFunctional": true,
+		"name": "RepulsorCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [
+			{
+				"defaultValue": {
+					"data": "500",
+					"type": "Float"
+				},
+				"propertyName": "Force"
+			},
+			{
+				"defaultValue": {
+					"data": "1",
+					"type": "Float"
+				},
+				"propertyName": "Distance"
+			}
+		],
+		"pieceName": "Repulsor",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Repulsor",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Jet",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[
+					[],
+					[
+						[],
+						[],
+						[]
+					]
+				],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Activation"
+			}
+		],
+		"isFunctional": true,
+		"name": "JetCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [
+			{
+				"defaultValue": {
+					"data": "500",
+					"type": "Float"
+				},
+				"propertyName": "Jet Force"
+			}
+		],
+		"pieceName": "Jet",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Jet",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Aero Surface",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "AeroCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Aero",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Aero Surface",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Edge Pyramid",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[
+					[]
+				]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "EdgePyramidCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [
+			{
+				"defaultValue": {
+					"data": "20",
+					"type": "Float"
+				},
+				"propertyName": "Mass"
+			}
+		],
+		"pieceName": "Edge Corner",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Edge Pyramid",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[
+					[]
+				],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Corner Pyramid",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[
+					[]
+				]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "CornerPyramidCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [
+			{
+				"defaultValue": {
+					"data": "20",
+					"type": "Float"
+				},
+				"propertyName": "Mass"
+			}
+		],
+		"pieceName": "Corner Pyramid",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Corner Pyramid",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[
+					[]
+				],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Block Small",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "SmallBlockCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "DNU",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Block Small",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "All",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Joint",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Activation (Motor and Target)"
+			},
+			{
+				"dataType": "Float",
+				"portName": "Brake (Motor Only)"
+			}
+		],
+		"isFunctional": true,
+		"name": "JointCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [
+			{
+				"defaultValue": {
+					"data": "100",
+					"type": "Float"
+				},
+				"propertyName": "Force"
+			},
+			{
+				"defaultValue": {
+					"data": "-90",
+					"type": "Float"
+				},
+				"propertyName": "Lower Limit"
+			},
+			{
+				"defaultValue": {
+					"data": "90",
+					"type": "Float"
+				},
+				"propertyName": "Upper Limit"
+			},
+			{
+				"defaultValue": {
+					"data": "1",
+					"type": "Int"
+				},
+				"propertyName": "Joint Type (1: motor, 2: target, 3: piston)"
+			},
+			{
+				"defaultValue": {
+					"data": "500",
+					"type": "Float"
+				},
+				"propertyName": "Stiffness (piston only)"
+			},
+			{
+				"defaultValue": {
+					"data": "100",
+					"type": "Float"
+				},
+				"propertyName": "Damping (piston only)"
+			},
+			{
+				"defaultValue": {
+					"data": "-.5",
+					"type": "Float"
+				},
+				"propertyName": "Min Distance (piston Only)"
+			},
+			{
+				"defaultValue": {
+					"data": ".5",
+					"type": "Float"
+				},
+				"propertyName": "Max Distance (piston Only)"
+			}
+		],
+		"pieceName": "Joint",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Joint",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Sword",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "SwordCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Sword",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Sword",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[
+					[],
+					[],
+					[],
+					[],
+					[]
+				],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Gun",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[
+					[
+						[]
+					]
+				],
+				[
+					[
+						[]
+					]
+				],
+				[
+					[
+						[]
+					]
+				],
+				[
+					[
+						[]
+					]
+				],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Fire"
+			}
+		],
+		"isFunctional": true,
+		"name": "LaserGunCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [
+			{
+				"defaultValue": {
+					"data": "300",
+					"type": "Float"
+				},
+				"propertyName": "Speed"
+			},
+			{
+				"defaultValue": {
+					"data": ".2",
+					"type": "Float"
+				},
+				"propertyName": "Size"
+			},
+			{
+				"defaultValue": {
+					"data": "50",
+					"type": "Float"
+				},
+				"propertyName": "Damage"
+			},
+			{
+				"defaultValue": {
+					"data": ".2",
+					"type": "Float"
+				},
+				"propertyName": "Cooldown"
+			}
+		],
+		"pieceName": "Laser Gun",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Gun",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[
+					[
+						[]
+					]
+				],
+				[
+					[
+						[]
+					]
+				],
+				[
+					[
+						[]
+					]
+				],
+				[
+					[
+						[]
+					]
+				],
+				[
+					[],
+					[],
+					[],
+					[],
+					[]
+				]
+			]
+		}
+	},
+	{
+		"availability": "All",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time Static Block",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "StaticBlockCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Static Block",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Static Block",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Position Piece",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": true,
+		"name": "PositionPieceCon",
+		"OutputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "Position (V3)"
+			},
+			{
+				"dataType": "Vector3",
+				"portName": "Velocity (V3)"
+			}
+		],
+		"pieceConstructorProperties": [],
+		"pieceName": "Position",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Position Piece",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Direction Piece",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": true,
+		"name": "DirectionPieceCon",
+		"OutputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "V3"
+			}
+		],
+		"pieceConstructorProperties": [],
+		"pieceName": "Direction",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Direction Piece",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Sensor",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": true,
+		"name": "SensorCon",
+		"OutputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "V3 Position"
+			},
+			{
+				"dataType": "Vector3",
+				"portName": "V3 Velocity"
+			}
+		],
+		"pieceConstructorProperties": [],
+		"pieceName": "Player Sensor",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Sensor",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Creation Spawner",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": []
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "CreationSpawnerCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [
+			{
+				"defaultValue": {
+					"data": "Untitled Creation",
+					"type": "String"
+				},
+				"propertyName": "Creation Name"
+			}
+		],
+		"pieceName": "Creation Spawner",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Creation Spawner",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[],
+					[]
+				]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Stabilizer",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Activation"
+			}
+		],
+		"isFunctional": true,
+		"name": "StabilizerCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [
+			{
+				"defaultValue": {
+					"data": "1000",
+					"type": "Float"
+				},
+				"propertyName": "Stabilization Force"
+			},
+			{
+				"defaultValue": {
+					"data": "1000",
+					"type": "Float"
+				},
+				"propertyName": "Dampening Force"
+			}
+		],
+		"pieceName": "Stabilizer",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Stabilizer",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Omni Wheel",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[
+					[],
+					[],
+					[]
+				],
+				[],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "Torque (V3)"
+			},
+			{
+				"dataType": "Float",
+				"portName": "Brake (F)"
+			},
+			{
+				"dataType": "Bool",
+				"portName": "Magnetize"
+			}
+		],
+		"isFunctional": true,
+		"name": "OmniWheelCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [
+			{
+				"defaultValue": {
+					"data": "1000",
+					"type": "Float"
+				},
+				"propertyName": "Force"
+			},
+			{
+				"defaultValue": {
+					"data": "1000",
+					"type": "Float"
+				},
+				"propertyName": "Brake Force"
+			},
+			{
+				"defaultValue": {
+					"data": "1000",
+					"type": "Float"
+				},
+				"propertyName": "Damping"
+			},
+			{
+				"defaultValue": {
+					"data": "5",
+					"type": "Float"
+				},
+				"propertyName": "Wheel Mass"
+			},
+			{
+				"defaultValue": {
+					"data": "1000",
+					"type": "Float"
+				},
+				"propertyName": "Magnetize Force"
+			},
+			{
+				"defaultValue": {
+					"data": "1",
+					"type": "Float"
+				},
+				"propertyName": "Magnetize Range"
+			}
+		],
+		"pieceName": "Omni Wheel",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Omni Wheel",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Grapple",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[
+					[
+						[]
+					]
+				],
+				[
+					[
+						[]
+					]
+				],
+				[
+					[
+						[]
+					]
+				],
+				[
+					[
+						[]
+					]
+				],
+				[],
+				[
+					[]
+				]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Launch"
+			},
+			{
+				"dataType": "Float",
+				"portName": "Force"
+			},
+			{
+				"dataType": "Bool",
+				"portName": "Detach"
+			}
+		],
+		"isFunctional": true,
+		"name": "GrappleGunCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Grapple",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Grapple",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[
+					[
+						[]
+					]
+				],
+				[
+					[
+						[]
+					]
+				],
+				[
+					[
+						[]
+					]
+				],
+				[
+					[
+						[]
+					]
+				],
+				[
+					[],
+					[],
+					[],
+					[],
+					[]
+				]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Sticky",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[
+					[]
+				]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Active"
+			}
+		],
+		"isFunctional": true,
+		"name": "StickyPieceCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [
+			{
+				"defaultValue": {
+					"data": "1000",
+					"type": "Float"
+				},
+				"propertyName": "Force"
+			},
+			{
+				"defaultValue": {
+					"data": "1",
+					"type": "Float"
+				},
+				"propertyName": "Range"
+			}
+		],
+		"pieceName": "Sticky",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Sticky",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Anti Gravity",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "AntiGravityCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Anti Gravity",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Anti Gravity",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Damper",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "DamperCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [
+			{
+				"defaultValue": {
+					"data": ".1",
+					"type": "Float"
+				},
+				"propertyName": "Linear Damping"
+			},
+			{
+				"defaultValue": {
+					"data": ".2",
+					"type": "Float"
+				},
+				"propertyName": "Angular Damping"
+			}
+		],
+		"pieceName": "Damper",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Damper",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Free Joint",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "Primary Axis Torque (V3)"
+			},
+			{
+				"dataType": "Vector3",
+				"portName": "Secondary Axis Torque (V3)"
+			}
+		],
+		"isFunctional": true,
+		"name": "FreeJointCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [
+			{
+				"defaultValue": {
+					"data": "1000",
+					"type": "Float"
+				},
+				"propertyName": "Primary Force"
+			},
+			{
+				"defaultValue": {
+					"data": "1000",
+					"type": "Float"
+				},
+				"propertyName": "Secondary Force"
+			}
+		],
+		"pieceName": "Free Joint",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Free Joint",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Two Axis Joint",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "X Axis Target"
+			},
+			{
+				"dataType": "Float",
+				"portName": "Y Axis Target"
+			}
+		],
+		"isFunctional": true,
+		"name": "TwoAxisJointCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [
+			{
+				"defaultValue": {
+					"data": "-45",
+					"type": "Float"
+				},
+				"propertyName": "X Axis Lower Limit"
+			},
+			{
+				"defaultValue": {
+					"data": "45",
+					"type": "Float"
+				},
+				"propertyName": "X Axis Upper Limit"
+			},
+			{
+				"defaultValue": {
+					"data": "5000",
+					"type": "Float"
+				},
+				"propertyName": "X Axis Force"
+			},
+			{
+				"defaultValue": {
+					"data": "1000",
+					"type": "Float"
+				},
+				"propertyName": "X Axis Stiffness"
+			},
+			{
+				"defaultValue": {
+					"data": "100",
+					"type": "Float"
+				},
+				"propertyName": "X Axis Damping"
+			},
+			{
+				"defaultValue": {
+					"data": "-45",
+					"type": "Float"
+				},
+				"propertyName": "Y Axis Lower Limit"
+			},
+			{
+				"defaultValue": {
+					"data": "45",
+					"type": "Float"
+				},
+				"propertyName": "Y Axis Upper Limit"
+			},
+			{
+				"defaultValue": {
+					"data": "5000",
+					"type": "Float"
+				},
+				"propertyName": "Y Axis Force"
+			},
+			{
+				"defaultValue": {
+					"data": "1000",
+					"type": "Float"
+				},
+				"propertyName": "Y Axis Stiffness"
+			},
+			{
+				"defaultValue": {
+					"data": "100",
+					"type": "Float"
+				},
+				"propertyName": "Y Axis Damping"
+			}
+		],
+		"pieceName": "Two Axis Joint",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Two Axis Joint",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [
+			{
+				"dataType": "Bool",
+				"portName": "Hit"
+			},
+			{
+				"dataType": "Bool",
+				"portName": "No Hit"
+			}
+		],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Enemy Sensor",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": true,
+		"name": "EnemySensorCon",
+		"OutputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "Position"
+			},
+			{
+				"dataType": "Vector3",
+				"portName": "Velocity"
+			}
+		],
+		"pieceConstructorProperties": [
+			{
+				"defaultValue": {
+					"data": "45",
+					"type": "Float"
+				},
+				"propertyName": "Angle"
+			},
+			{
+				"defaultValue": {
+					"data": "500",
+					"type": "Float"
+				},
+				"propertyName": "Distance"
+			}
+		],
+		"pieceName": "Enemy Sensor",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Enemy Sensor",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Inertia Tensor Multiplier Piece",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "InertiaTensorMultiplierCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [
+			{
+				"defaultValue": {
+					"data": "1",
+					"type": "Float"
+				},
+				"propertyName": "Multiply Amount"
+			}
+		],
+		"pieceName": "Inertia Tensor Multiplier",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Inertia Tensor Multiplier Piece",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Explosive Piece",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Explode"
+			}
+		],
+		"isFunctional": true,
+		"name": "ExplosiveCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Explosive",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Explosive Piece",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Printer",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[
+					[
+						[]
+					]
+				],
+				[
+					[
+						[]
+					]
+				],
+				[
+					[
+						[]
+					]
+				],
+				[
+					[
+						[]
+					]
+				],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Print"
+			}
+		],
+		"isFunctional": true,
+		"name": "PrinterCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [
+			{
+				"defaultValue": {
+					"data": "",
+					"type": "String"
+				},
+				"propertyName": "Creation Name"
+			},
+			{
+				"defaultValue": {
+					"data": "1",
+					"type": "Float"
+				},
+				"propertyName": "Cooldown"
+			},
+			{
+				"defaultValue": {
+					"data": "50",
+					"type": "Float"
+				},
+				"propertyName": "Initial Velocity (m/s)"
+			}
+		],
+		"pieceName": "Printer",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Printer",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[
+					[
+						[]
+					]
+				],
+				[
+					[
+						[]
+					]
+				],
+				[
+					[
+						[]
+					]
+				],
+				[
+					[
+						[]
+					]
+				],
+				[
+					[],
+					[],
+					[],
+					[],
+					[]
+				]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Environment Avoidance",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "Desired Direction (V3)"
+			}
+		],
+		"isFunctional": true,
+		"name": "EnvironmentAvoidanceCon",
+		"OutputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "Available Direction (V3)"
+			}
+		],
+		"pieceConstructorProperties": [
+			{
+				"defaultValue": {
+					"data": "50",
+					"type": "Float"
+				},
+				"propertyName": "Distance"
+			},
+			{
+				"defaultValue": {
+					"data": "1",
+					"type": "Float"
+				},
+				"propertyName": "Radius"
+			}
+		],
+		"pieceName": "Environment Avoidance",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Environment Avoidance",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Laser",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[
+					[
+						[]
+					]
+				],
+				[
+					[
+						[]
+					]
+				],
+				[
+					[
+						[]
+					]
+				],
+				[
+					[
+						[]
+					]
+				],
+				[],
+				[
+					[]
+				]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Activate"
+			}
+		],
+		"isFunctional": true,
+		"name": "LaserCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Laser",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Laser",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[
+					[
+						[]
+					]
+				],
+				[
+					[
+						[]
+					]
+				],
+				[
+					[
+						[]
+					]
+				],
+				[
+					[
+						[]
+					]
+				],
+				[
+					[],
+					[],
+					[],
+					[],
+					[]
+				],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Biped Base",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[
+					[
+						[]
+					],
+					[],
+					[
+						[
+							[],
+							[],
+							[]
+						],
+						[]
+					],
+					[]
+				],
+				[
+					[
+						[]
+					],
+					[],
+					[],
+					[
+						[
+							[],
+							[],
+							[]
+						],
+						[]
+					]
+				]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Vector2",
+				"portName": "Input Direction"
+			},
+			{
+				"dataType": "Bool",
+				"portName": "Jump"
+			},
+			{
+				"dataType": "Bool",
+				"portName": "Dash"
+			}
+		],
+		"isFunctional": true,
+		"name": "BipedBaseCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Biped Base",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Biped Base",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[
+					[
+						[
+							[],
+							[]
+						],
+						[]
+					]
+				],
+				[
+					[
+						[
+							[],
+							[]
+						],
+						[]
+					]
+				],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time MVP Level",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[
+					[
+						[],
+						[],
+						[]
+					],
+					[
+						[]
+					],
+					[
+						[]
+					]
+				]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "MVPLevelCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "DNU",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Edito MVP Level",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[
+					[
+						[],
+						[],
+						[]
+					],
+					[
+						[]
+					],
+					[
+						[]
+					]
+				],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Game Time Player Spawner",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": []
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "LevelStartCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Player Start",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Player Spawner",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[
+					[],
+					[],
+					[],
+					[]
+				]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Orb Base",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "Force (V3)"
+			},
+			{
+				"dataType": "Vector3",
+				"portName": "Torque (V3)"
+			}
+		],
+		"isFunctional": true,
+		"name": "OrbBaseCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Orb Base",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Orb Base",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Magnetized Piece",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Power"
+			},
+			{
+				"dataType": "Float",
+				"portName": "Range"
+			}
+		],
+		"isFunctional": true,
+		"name": "MagnetizedPiece",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [
+			{
+				"defaultValue": {
+					"data": "1000",
+					"type": "Float"
+				},
+				"propertyName": "Power"
+			},
+			{
+				"defaultValue": {
+					"data": "2",
+					"type": "Float"
+				},
+				"propertyName": "Range"
+			}
+		],
+		"pieceName": "Magnetized Block",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Magnetized Piece",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Energy Sword Piece",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Activate"
+			}
+		],
+		"isFunctional": true,
+		"name": "EnergySwordCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Energy Sword",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Energy Sword Piece",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Zero Friction Block",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "ZeroFrictionBlockCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [
+			{
+				"defaultValue": {
+					"data": "20",
+					"type": "Float"
+				},
+				"propertyName": "Mass"
+			}
+		],
+		"pieceName": "Zero Friction Block",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Zero Friction Block",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Large Biped Base",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[
+					[
+						[
+							[
+								[],
+								[],
+								[
+									[],
+									[
+										[
+											[],
+											[],
+											[]
+										]
+									]
+								]
+							],
+							[],
+							[]
+						],
+						[],
+						[]
+					],
+					[
+						[]
+					],
+					[]
+				],
+				[
+					[],
+					[
+						[
+							[
+								[],
+								[],
+								[
+									[
+										[
+											[],
+											[],
+											[]
+										]
+									],
+									[]
+								]
+							],
+							[],
+							[]
+						],
+						[],
+						[]
+					],
+					[
+						[]
+					]
+				]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Vector3",
+				"portName": "Move Direction (World Space)"
+			},
+			{
+				"dataType": "Bool",
+				"portName": "Jump"
+			},
+			{
+				"dataType": "Bool",
+				"portName": "Dash"
+			}
+		],
+		"isFunctional": true,
+		"name": "LargeBipedBasePiece",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Large Biped Base",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Editor Large Biped Base Piece",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[
+					[
+						[
+							[
+								[],
+								[],
+								[
+									[],
+									[
+										[
+											[],
+											[],
+											[]
+										]
+									]
+								]
+							],
+							[],
+							[]
+						],
+						[],
+						[]
+					],
+					[
+						[]
+					],
+					[]
+				],
+				[
+					[],
+					[
+						[
+							[
+								[],
+								[],
+								[
+									[
+										[
+											[],
+											[],
+											[]
+										]
+									],
+									[]
+								]
+							],
+							[],
+							[]
+						],
+						[],
+						[]
+					],
+					[
+						[]
+					]
+				]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Sphere",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "SphereCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [
+			{
+				"defaultValue": {
+					"data": "20",
+					"type": "Float"
+				},
+				"propertyName": "Mass"
+			}
+		],
+		"pieceName": "Sphere",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Sphere",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time Ancient Cube",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Ancient Cube",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Ancient Cube",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Ancient Cube",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time Ancient Cylinder",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Ancient Cylinder",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Ancient Cylinder",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Ancient Cylinder",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time Ancient Half Cylinder",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Ancient Half Cylinder",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Ancient Half Cylinder",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Ancient Half Cylinder",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time Ancient Hexagon",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Ancient Hexagon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Ancient Hexagon",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Ancient Hexagon",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time Ancient Pyramid",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Ancient Pyramid",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Ancient Pyramid",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Ancient Pyramid",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time AncientStructurePiece[1]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Ancient Structure [1]",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Ancient Structure [1]",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor AncientStructurePiece[1]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time AncientStructurePiece[2]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Ancient Structure [2]",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Ancient Structure [2]",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor AncientStructurePiece[2]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time AncientStructurePiece[3]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Ancient Structure [3]",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Ancient Structure [3]",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor AncientStructurePiece[3]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time AncientStructurePiece[4]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Ancient Structure [4]",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Ancient Structure [4]",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor AncientStructurePiece[4]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time AncientStructurePiece[5]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Ancient Structure [5]",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Ancient Structure [5]",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor AncientStructurePiece[5]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time AncientStructurePiece[6]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Ancient Structure [6]",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Ancient Structure [6]",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor AncientStructurePiece[6]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time Ancient Tetrad Connector",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Ancient Tetrad Connector",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Ancient Tetrad Connector",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Ancient Tetrad Connector",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time Ancient Trapezoid",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Ancient Trapezoid",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Ancient Trapezoid",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Ancient Trapezoid",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time AncientWall",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Ancient Wall",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Ancient Wall",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor AncientWall",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time Ancient Corner",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Ancient Wedge",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Ancient Wedge",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Ancient Corner",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time Cliff[1]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Cliff [1]",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Cliff [1]",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Cliff[1]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time Cliff[2]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Cliff [2]",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Cliff [2]",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Cliff[2]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time CliffWall[1]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Cliff Wall [1]",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Cliff Wall [1]",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor CliffWall[1]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time CliffWall[2]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Cliff Wall [2]",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Cliff Wall [2]",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor CliffWall[2]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time Lamp",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Lamp",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Lamp",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Lamp",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time LongRock[1]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Long Rock [1]",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Long Rock [1]",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor LongRock[1]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time LongRock[2]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Long Rock [2]",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Long Rock [2]",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor LongRock[2]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time Rock[1]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Rock [1]",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Rock [1]",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Rock[1]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time Rock[2]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Rock [2]",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Rock [2]",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Rock[2]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time Rock[3]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Rock [3]",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Rock [3]",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Rock[3]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time RockPillar[1]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Rock Pillar [1]",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Rock Pillar [1]",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor RockPillar[1]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time RockPillar[2]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Rock Pillar [2]",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Rock Pillar [2]",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor RockPillar[2]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time RockPillar[3]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Rock Pillar [3]",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Rock Pillar [3]",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor RockPillar[3]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time RockPillar[4]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Rock Pillar [4]",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Rock Pillar [4]",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor RockPillar[4]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time SquareRock",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Square Rock",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Square Rock",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor SquareRock",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time TerrainPiece[1]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Terrain Piece [1]",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Terrain Piece [1]",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor TerrainPiece[1]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time TerrainPiece[2]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Terrain Piece [2]",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Terrain Piece [2]",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor TerrainPiece[2]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time TerrainPiece[3]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Terrain Piece [3]",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Terrain Piece [3]",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor TerrainPiece[3]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time TerrainPiece[4]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Terrain Piece [4]",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Terrain Piece [4]",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor TerrainPiece[4]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time TerrainPiece[5]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Terrain Piece [5]",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Terrain Piece [5]",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor TerrainPiece[5]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time TerrainPiece[6]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Terrain Piece [6]",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Terrain Piece [6]",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor TerrainPiece[6]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 10,
+			"name": "Game Time TerrainPiece[7]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "Terrain Piece [7]",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Terrain Piece [7]",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor TerrainPiece[7]",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[]
+			]
+		}
+	},
+	{
+		"availability": "All",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Laser Drill",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[
+					[]
+				],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Bool",
+				"portName": "Bool"
+			}
+		],
+		"isFunctional": true,
+		"name": "LaserDrillCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Laser Drill",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Laser Drill",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "LevelOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Resource Test",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [],
+		"isFunctional": false,
+		"name": "ResourceTestCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [],
+		"pieceName": "Resource",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Resource Test",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[
+					[],
+					[],
+					[],
+					[],
+					[],
+					[]
+				],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Motor Joint",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Activation"
+			},
+			{
+				"dataType": "Float",
+				"portName": "Brake"
+			}
+		],
+		"isFunctional": true,
+		"name": "MotorJointCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [
+			{
+				"defaultValue": {
+					"data": "5000",
+					"type": "Float"
+				},
+				"propertyName": "Maximum Force"
+			},
+			{
+				"defaultValue": {
+					"data": "5000",
+					"type": "Float"
+				},
+				"propertyName": "Brake Force"
+			}
+		],
+		"pieceName": "Motor Joint",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Motor Joint",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Servo Joint",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Target"
+			}
+		],
+		"isFunctional": true,
+		"name": "ServoJointCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [
+			{
+				"defaultValue": {
+					"data": "5000",
+					"type": "Float"
+				},
+				"propertyName": "Maximum Force"
+			},
+			{
+				"defaultValue": {
+					"data": "1000",
+					"type": "Float"
+				},
+				"propertyName": "Stiffness"
+			},
+			{
+				"defaultValue": {
+					"data": "100",
+					"type": "Float"
+				},
+				"propertyName": "Damping"
+			},
+			{
+				"defaultValue": {
+					"data": "-90",
+					"type": "Float"
+				},
+				"propertyName": "Lower Limit"
+			},
+			{
+				"defaultValue": {
+					"data": "90",
+					"type": "Float"
+				},
+				"propertyName": "Upper Limit"
+			}
+		],
+		"pieceName": "Servo Joint",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Servo Joint",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	},
+	{
+		"availability": "CreationOnly",
+		"description": "",
+		"ExecutionExits": [],
+		"GameTimePrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 0,
+			"name": "Game Time Piston Joint",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[]
+			]
+		},
+		"hideFlags": "None",
+		"InputPorts": [
+			{
+				"dataType": "Float",
+				"portName": "Target (-1, 1)"
+			}
+		],
+		"isFunctional": true,
+		"name": "PistonJointCon",
+		"OutputPorts": [],
+		"pieceConstructorProperties": [
+			{
+				"defaultValue": {
+					"data": "5000",
+					"type": "Float"
+				},
+				"propertyName": "Maximum Force"
+			},
+			{
+				"defaultValue": {
+					"data": "1000",
+					"type": "Float"
+				},
+				"propertyName": "Stiffness"
+			},
+			{
+				"defaultValue": {
+					"data": "100",
+					"type": "Float"
+				},
+				"propertyName": "Damping"
+			},
+			{
+				"defaultValue": {
+					"data": "-.5",
+					"type": "Float"
+				},
+				"propertyName": "Lower Limit"
+			},
+			{
+				"defaultValue": {
+					"data": ".5",
+					"type": "Float"
+				},
+				"propertyName": "Upper Limit"
+			}
+		],
+		"pieceName": "Piston Joint",
+		"UIPrefab": {
+			"activeInHierarchy": false,
+			"activeSelf": true,
+			"hideFlags": "None",
+			"layer": 5,
+			"name": "Editor Piston Joint",
+			"scene": {
+				"handle": 0,
+				"isLoaded": false,
+				"m_Handle": 0,
+				"name": null,
+				"rootCount": 0
+			},
+			"sceneCullingMask": 16140901064495857664,
+			"tag": "Untagged",
+			"transform": [
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			]
+		}
+	}
+]

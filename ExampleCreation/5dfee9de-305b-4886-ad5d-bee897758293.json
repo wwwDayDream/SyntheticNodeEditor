@@ -37,7 +37,7 @@
       ],
       "ExecutionExits": [],
       "nodes": [
-        {
+        { //* Position
           "ID": [
             -1
           ],
@@ -48,7 +48,7 @@
             "y": -68.571434
           }
         },
-        {
+        { //* Direction
           "ID": [
             -1
           ],
@@ -59,18 +59,18 @@
             "y": -61.51261
           }
         },
-        {
+        { //* Server Joint
           "ID": [
             -1
           ],
-          "refID": 3, // Server Joint
+          "refID": 3,
           "linkedPieceRefID": 5,
           "GraphPosition": {
             "x": 327.7311,
             "y": 12.1008282
           }
         },
-        {
+        { //* Grapple
           "ID": [
             -1
           ],
@@ -81,7 +81,7 @@
             "y": -1.09672546E-05
           }
         },
-        {
+        { //* Move Check
           "ID": [
             -2,
             -6,
@@ -94,7 +94,7 @@
             "y": 15.1260386
           }
         },
-        {
+        { //* Float Add
           "ID": [
             5
           ],
@@ -105,7 +105,7 @@
             "y": -144.705887
           }
         },
-        {
+        { //* V3 Splitter
           "ID": [
             27
           ],

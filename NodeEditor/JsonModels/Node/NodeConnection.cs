@@ -1,6 +1,6 @@
-namespace NodeEditor.JsonModels;
+namespace NodeEditor.JsonModels.Node;
 
-public class SyntheticNodeConnection {
+public class NodeConnection {
     public bool isExecutionPort;
     public int fromNodeRefID;
     public int fromNodePortIndex;

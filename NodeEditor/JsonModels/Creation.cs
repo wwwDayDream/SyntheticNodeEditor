@@ -5,14 +5,14 @@ using Newtonsoft.Json.Serialization;
 
 namespace NodeEditor.JsonModels;
 
-public class SyntheticCreation {
+public class Creation {
     public string VersionTime;
     public string id;
     public string CreationName;
     public string CreatorId;
     public string CreationRootId;
 
-    public SyntheticCreationData CreationData;
+    public CreationData CreationData;
 
     public string ShareId;
     public string CreatedAt;

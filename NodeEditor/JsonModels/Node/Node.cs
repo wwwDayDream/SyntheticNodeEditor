@@ -1,8 +1,8 @@
 using System.Numerics;
 
-namespace NodeEditor.JsonModels;
+namespace NodeEditor.JsonModels.Node;
 
-public class SyntheticNode {
+public class Node {
     public int[] ID;
     public int refID;
     public int linkedPieceRefID;

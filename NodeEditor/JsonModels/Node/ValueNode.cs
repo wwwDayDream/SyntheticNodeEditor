@@ -1,8 +1,8 @@
 using System.Numerics;
 
-namespace NodeEditor.JsonModels;
+namespace NodeEditor.JsonModels.Node;
 
-public class SyntheticValueNode {
+public class ValueNode {
     public int refID;
     public string ValueName;
     public Vector2 GraphPosition;

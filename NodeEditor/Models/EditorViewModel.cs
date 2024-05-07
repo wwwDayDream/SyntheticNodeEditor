@@ -21,7 +21,8 @@ public class EditorViewModel
 	private enum NodeConstructorType {
 		node,
 		piece,
-		nested
+		nested,
+		unknown
 	}
 
     public EditorViewModel()
@@ -67,8 +68,10 @@ public class EditorViewModel
         Nodes.Clear();
         Connections.Clear();
 
+		GenerateNodes(creationObject.CreationData);
+	public void GenerateNodes(CreationData data) {
 		//TODO Create a class to do this in there ti clean up this script a bit
-        foreach (var nodeGraphNode in creationObject.CreationData.NodeGraph.nodes)
+        foreach (var nodeGraphNode in data.NodeGraph.nodes)
         {
 			int nodeID = nodeGraphNode.ID.First();
 			int pieceID = -1; //? will be set in the switch if nodeID = -1
@@ -77,7 +80,8 @@ public class EditorViewModel
 			NodeConstructorType constructorType = 
 				(nodeID > -1) ? NodeConstructorType.node : 
 				(nodeID == -1) ? NodeConstructorType.piece : 
-				NodeConstructorType.nested;
+				(nodeID == -2) ? NodeConstructorType.nested : 
+				NodeConstructorType.unknown;
 
 			string title = "undefined";
 			PortConstructor[] inputPorts = [];
@@ -91,14 +95,20 @@ public class EditorViewModel
 					outputPorts = constructor.OutputPorts;
 				} break;
 				case NodeConstructorType.piece: {
-					pieceID = Array.Find(creationObject.CreationData.pieces, p => p.refID == nodeGraphNode.linkedPieceRefID).pieceID;
+					pieceID = Array.Find(data.pieces, p => p.refID == nodeGraphNode.linkedPieceRefID).pieceID;
 					Console.WriteLine($"Piece ID: {pieceID}");
 					PieceConstructor constructor = NodeViewModel.PieceConstructors[pieceID];
 					title = constructor.pieceName;
 					inputPorts = constructor.InputPorts;
 					outputPorts = constructor.OutputPorts;
 				} break;
-				case NodeConstructorType.nested: continue; //TODO
+				case NodeConstructorType.nested: {
+					NestedCreation? nestedCreation = Array.Find(data.nestedCreations, part => part.refID == nodeGraphNode.linkedPieceRefID);
+					Creation? nestedRecipe = Array.Find(data.nestedCreationsRecipes, creation => creation.CreationName == nestedCreation.partName);
+					title = nestedCreation.partName;
+					inputPorts = nestedRecipe.CreationData.NodeGraph.InputPorts;
+					outputPorts = nestedRecipe.CreationData.NodeGraph.OutputPorts;
+				}; break;
 				default: continue;
 			}
 

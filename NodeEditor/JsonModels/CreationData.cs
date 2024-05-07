@@ -12,4 +12,6 @@ public class CreationData {
 
     public NodeGraph NodeGraph;
 	public PiecePart[] pieces;
+	public Creation[] nestedCreationsRecipes;
+	public NestedCreation[] nestedCreations;
 }

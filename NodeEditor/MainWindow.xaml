@@ -59,7 +59,7 @@
                         <nodify:Node.OutputConnectorTemplate>
                             <DataTemplate DataType="{x:Type models:ConnectorViewModel}">
                                 <nodify:NodeOutput Header="{Binding Title}"
-                                                   IsConnected="True"
+                                                   IsConnected="{Binding IsConnected}"
                                                    Anchor="{Binding Anchor, Mode=OneWayToSource}"  />
                             </DataTemplate>
                         </nodify:Node.OutputConnectorTemplate>

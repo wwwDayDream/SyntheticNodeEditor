@@ -5,6 +5,14 @@ using System.Windows;
 namespace NodeEditor.Models;
 
 public partial class NodeViewModel : INotifyPropertyChanged {
+	
+    public string Title { get; set; }
+	public int ID { get; set; } //? So it can be found back while going through connections in EditorViewModel
+	public EditorViewModel.NodeConstructorType ConstructorType;
+
+    public ObservableCollection<ConnectorViewModel> Input { get; set; } = new ObservableCollection<ConnectorViewModel>();
+    public ObservableCollection<ConnectorViewModel> Output { get; set; } = new ObservableCollection<ConnectorViewModel>();
+
     private Point _location;
     public Point Location
     {
@@ -16,11 +24,5 @@ public partial class NodeViewModel : INotifyPropertyChanged {
         get => _location;
     }
 
-    public event PropertyChangedEventHandler PropertyChanged;
-    public string Title { get; set; }
-	public int ID { get; set; } //? So it can be found back while going through connections in EditorViewModel
-    public ObservableCollection<ConnectorViewModel> Input { get; set; } = new ObservableCollection<ConnectorViewModel>();
-    public ObservableCollection<ConnectorViewModel> Output { get; set; } = new ObservableCollection<ConnectorViewModel>();
-
-    
+	public event PropertyChangedEventHandler PropertyChanged;
 }
